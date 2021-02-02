@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.beans.factory.aspectj.AbstractDependencyInjectionAspect</OriginalElement>
+  <nodes>
+    <node x="9.5" y="385.0">org.springframework.transaction.aspectj.AspectJTransactionManagementConfiguration</node>
+    <node x="207.5" y="0.0">org.springframework.beans.factory.aspectj.AbstractDependencyInjectionAspect</node>
+    <node x="431.0" y="765.0">org.springframework.cache.aspectj.AnyThrow</node>
+    <node x="273.0" y="691.0">org.springframework.scheduling.aspectj.AspectJAsyncConfiguration</node>
+    <node x="272.0" y="311.0">org.springframework.transaction.aspectj.AnnotationTransactionAspect</node>
+    <node x="0.0" y="691.0">org.springframework.cache.aspectj.AspectJJCacheConfiguration</node>
+    <node x="0.0" y="311.0">org.springframework.transaction.aspectj.JtaAnnotationTransactionAspect</node>
+    <node x="243.0" y="538.0">org.springframework.context.annotation.aspectj.SpringConfiguredConfiguration</node>
+    <node x="148.75" y="232.0">org.springframework.transaction.aspectj.AbstractTransactionAspect</node>
+    <node x="407.0" y="385.0">org.springframework.scheduling.aspectj.AbstractAsyncExecutionAspect</node>
+    <node x="530.0" y="538.0">org.springframework.cache.aspectj.AspectJCachingConfiguration</node>
+    <node x="0.0" y="617.0">org.springframework.cache.aspectj.AnnotationCacheAspect</node>
+    <node x="8.0" y="538.0">org.springframework.cache.aspectj.AbstractCacheAspect</node>
+    <node x="0.0" y="765.0">org.springframework.cache.aspectj.JCacheCacheAspect</node>
+    <node x="539.0" y="691.0">org.springframework.context.annotation.aspectj.EnableSpringConfigured</node>
+    <node x="379.0" y="158.0">org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect</node>
+    <node x="0.0" y="464.0">org.springframework.transaction.aspectj.AspectJJtaTransactionManagementConfiguration</node>
+    <node x="161.0" y="79.0">org.springframework.beans.factory.aspectj.AbstractInterfaceDrivenDependencyInjectionAspect</node>
+    <node x="399.0" y="464.0">org.springframework.scheduling.aspectj.AnnotationAsyncExecutionAspect</node>
+    <node x="0.0" y="158.0">org.springframework.beans.factory.aspectj.GenericInterfaceDrivenDependencyInjectionAspect</node>
+    <node x="219.0" y="765.0">org.springframework.beans.factory.aspectj.ConfigurableObject</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.transaction.aspectj.AspectJJtaTransactionManagementConfiguration" target="org.springframework.transaction.aspectj.AspectJTransactionManagementConfiguration">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.aspectj.JtaAnnotationTransactionAspect" target="org.springframework.transaction.aspectj.AbstractTransactionAspect">
+      <point x="0.0" y="-14.5" />
+      <point x="126.0" y="286.0" />
+      <point x="203.0" y="286.0" />
+      <point x="-54.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.cache.aspectj.AnnotationCacheAspect" target="org.springframework.cache.aspectj.AbstractCacheAspect">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.aspectj.AbstractInterfaceDrivenDependencyInjectionAspect" target="org.springframework.beans.factory.aspectj.AbstractDependencyInjectionAspect">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect" target="org.springframework.beans.factory.aspectj.AbstractInterfaceDrivenDependencyInjectionAspect">
+      <point x="0.0" y="-14.5" />
+      <point x="507.5" y="133.0" />
+      <point x="434.75" y="133.0" />
+      <point x="91.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.aspectj.AnnotationTransactionAspect" target="org.springframework.transaction.aspectj.AbstractTransactionAspect">
+      <point x="0.0" y="-14.5" />
+      <point x="388.5" y="286.0" />
+      <point x="311.5" y="286.0" />
+      <point x="54.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.aspectj.GenericInterfaceDrivenDependencyInjectionAspect" target="org.springframework.beans.factory.aspectj.AbstractInterfaceDrivenDependencyInjectionAspect">
+      <point x="0.0" y="-14.5" />
+      <point x="179.5" y="133.0" />
+      <point x="252.25" y="133.0" />
+      <point x="-91.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.scheduling.aspectj.AnnotationAsyncExecutionAspect" target="org.springframework.scheduling.aspectj.AbstractAsyncExecutionAspect">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="136.0" y="14.5" />
+  <SelectedNodes>
+    <node>org.springframework.beans.factory.aspectj.AbstractDependencyInjectionAspect</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.oxm.GenericMarshaller</OriginalElement>
+  <nodes>
+    <node x="723.0" y="79.0">org.springframework.oxm.mime.MimeUnmarshaller</node>
+    <node x="149.95833333333337" y="321.0">org.springframework.oxm.MarshallingException</node>
+    <node x="348.95833333333337" y="321.0">org.springframework.oxm.ValidationFailureException</node>
+    <node x="0.0" y="548.0">org.springframework.oxm.support.MarshallingSource</node>
+    <node x="257.0" y="400.0">org.springframework.oxm.MarshallingFailureException</node>
+    <node x="518.6388888888889" y="168.0">org.springframework.oxm.jaxb.Jaxb2Marshaller</node>
+    <node x="322.0" y="474.0">org.springframework.oxm.jaxb.ClassPathJaxb2TypeScanner</node>
+    <node x="341.0" y="79.0">org.springframework.oxm.support.AbstractMarshaller</node>
+    <node x="593.0" y="474.0">org.springframework.oxm.config.OxmNamespaceHandler</node>
+    <node x="587.1944444444445" y="0.0">org.springframework.oxm.Unmarshaller</node>
+    <node x="0.0" y="79.0">org.springframework.oxm.GenericMarshaller</node>
+    <node x="214.83333333333337" y="0.0">org.springframework.oxm.Marshaller</node>
+    <node x="364.5" y="242.0">org.springframework.oxm.XmlMappingException</node>
+    <node x="527.0" y="79.0">org.springframework.oxm.GenericUnmarshaller</node>
+    <node x="178.0" y="79.0">org.springframework.oxm.mime.MimeMarshaller</node>
+    <node x="611.0" y="548.0">org.springframework.oxm.mime.MimeContainer</node>
+    <node x="411.0" y="548.0">org.springframework.oxm.support.SaxResourceUtils</node>
+    <node x="314.58333333333337" y="168.0">org.springframework.oxm.xstream.XStreamMarshaller</node>
+    <node x="578.9583333333334" y="321.0">org.springframework.oxm.UncategorizedMappingException</node>
+    <node x="0.0" y="474.0">org.springframework.oxm.config.Jaxb2MarshallerBeanDefinitionParser</node>
+    <node x="206.0" y="548.0">org.springframework.oxm.xstream.CatchAllConverter</node>
+    <node x="0.0" y="400.0">org.springframework.oxm.UnmarshallingFailureException</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.oxm.GenericUnmarshaller" target="org.springframework.oxm.Unmarshaller">
+      <point x="0.0" y="-14.5" />
+      <point x="615.0" y="54.0" />
+      <point x="651.6944444444445" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.oxm.UncategorizedMappingException" target="org.springframework.oxm.XmlMappingException">
+      <point x="0.0" y="-14.5" />
+      <point x="704.9583333333334" y="296.0" />
+      <point x="518.6666666666666" y="296.0" />
+      <point x="61.66666666666663" y="14.5" />
+    </edge>
+    <edge source="org.springframework.oxm.ValidationFailureException" target="org.springframework.oxm.XmlMappingException">
+      <point x="0.0" y="-14.5" />
+      <point x="453.95833333333337" y="296.0" />
+      <point x="457.0" y="296.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.oxm.MarshallingFailureException" target="org.springframework.oxm.MarshallingException">
+      <point x="0.0" y="-14.5" />
+      <point x="366.5" y="375.0" />
+      <point x="284.20833333333337" y="375.0" />
+      <point x="44.75" y="14.5" />
+    </edge>
+    <edge source="org.springframework.oxm.jaxb.Jaxb2Marshaller" target="org.springframework.oxm.GenericUnmarshaller">
+      <point x="18.5" y="-14.5" />
+      <point x="611.1388888888889" y="148.0" />
+      <point x="615.0" y="148.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.oxm.MarshallingException" target="org.springframework.oxm.XmlMappingException">
+      <point x="0.0" y="-14.5" />
+      <point x="239.45833333333337" y="296.0" />
+      <point x="395.33333333333337" y="296.0" />
+      <point x="-61.666666666666686" y="14.5" />
+    </edge>
+    <edge source="org.springframework.oxm.jaxb.Jaxb2Marshaller" target="org.springframework.oxm.mime.MimeUnmarshaller">
+      <point x="55.5" y="-14.5" />
+      <point x="648.1388888888889" y="148.0" />
+      <point x="803.5" y="148.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.oxm.jaxb.Jaxb2Marshaller" target="org.springframework.oxm.mime.MimeMarshaller">
+      <point x="-18.5" y="-14.5" />
+      <point x="574.1388888888889" y="128.0" />
+      <point x="249.5" y="128.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.oxm.mime.MimeUnmarshaller" target="org.springframework.oxm.Unmarshaller">
+      <point x="0.0" y="-14.5" />
+      <point x="803.5" y="54.0" />
+      <point x="694.6944444444445" y="54.0" />
+      <point x="43.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.oxm.support.AbstractMarshaller" target="org.springframework.oxm.Marshaller">
+      <point x="-41.0" y="-14.5" />
+      <point x="382.0" y="54.0" />
+      <point x="307.33333333333337" y="54.0" />
+      <point x="37.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.oxm.xstream.XStreamMarshaller" target="org.springframework.oxm.support.AbstractMarshaller">
+      <point x="0.0" y="-14.5" />
+      <point x="396.08333333333337" y="148.0" />
+      <point x="423.0" y="148.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.oxm.support.AbstractMarshaller" target="org.springframework.oxm.Unmarshaller">
+      <point x="41.0" y="-14.5" />
+      <point x="464.0" y="54.0" />
+      <point x="608.6944444444445" y="54.0" />
+      <point x="-43.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.oxm.jaxb.Jaxb2Marshaller" target="org.springframework.oxm.GenericMarshaller">
+      <point x="-55.5" y="-14.5" />
+      <point x="537.1388888888889" y="138.0" />
+      <point x="79.0" y="138.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.oxm.GenericMarshaller" target="org.springframework.oxm.Marshaller">
+      <point x="0.0" y="-14.5" />
+      <point x="79.0" y="54.0" />
+      <point x="233.33333333333337" y="54.0" />
+      <point x="-37.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.oxm.UnmarshallingFailureException" target="org.springframework.oxm.MarshallingException">
+      <point x="0.0" y="-14.5" />
+      <point x="118.5" y="375.0" />
+      <point x="194.70833333333337" y="375.0" />
+      <point x="-44.75" y="14.5" />
+    </edge>
+    <edge source="org.springframework.oxm.mime.MimeMarshaller" target="org.springframework.oxm.Marshaller">
+      <point x="0.0" y="-14.5" />
+      <point x="249.5" y="54.0" />
+      <point x="270.33333333333337" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="79.0" y="54.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

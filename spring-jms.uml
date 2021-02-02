@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.jms.annotation.EnableJms</OriginalElement>
+  <nodes>
+    <node x="1449.1911764705883" y="79.0">org.springframework.jms.core.JmsOperations</node>
+    <node x="1045.4215686274508" y="395.0">org.springframework.jms.listener.DefaultMessageListenerContainer</node>
+    <node x="0.0" y="1688.0">org.springframework.jms.annotation.JmsListeners</node>
+    <node x="257.0" y="548.0">org.springframework.jms.support.converter.SimpleMessageConverter</node>
+    <node x="221.0" y="1614.0">org.springframework.jms.core.ProducerCallback</node>
+    <node x="1067.0" y="1466.0">org.springframework.jms.connection.ChainedExceptionListener</node>
+    <node x="299.0" y="1392.0">org.springframework.jms.support.destination.DestinationResolutionException</node>
+    <node x="1192.0" y="1540.0">org.springframework.jms.annotation.JmsListenerConfigurer</node>
+    <node x="679.0" y="1688.0">org.springframework.jms.annotation.EnableJms</node>
+    <node x="0.0" y="1392.0">org.springframework.jms.listener.adapter.ListenerExecutionFailedException</node>
+    <node x="465.42156862745094" y="395.0">org.springframework.jms.config.DefaultJmsListenerContainerFactory</node>
+    <node x="174.0" y="1688.0">org.springframework.jms.support.JmsHeaders</node>
+    <node x="0.0" y="780.0">org.springframework.jms.support.destination.CachingDestinationResolver</node>
+    <node x="0.0" y="1466.0">org.springframework.jms.config.JmsListenerEndpointRegistry</node>
+    <node x="582.75" y="316.0">org.springframework.jms.config.AbstractJmsListenerContainerFactory</node>
+    <node x="281.5" y="1165.0">org.springframework.jms.connection.SingleConnectionFactory</node>
+    <node x="245.0" y="1091.0">org.springframework.jms.config.SimpleJmsListenerEndpoint</node>
+    <node x="729.0" y="548.0">org.springframework.jms.support.converter.MarshallingMessageConverter</node>
+    <node x="480.0" y="548.0">org.springframework.jms.support.converter.MessagingMessageConverter</node>
+    <node x="820.0" y="1012.0">org.springframework.jms.config.JcaListenerContainerParser</node>
+    <node x="713.0" y="1318.0">org.springframework.jms.config.AnnotationDrivenJmsBeanDefinitionParser</node>
+    <node x="512.0" y="1688.0">org.springframework.jms.annotation.JmsListener</node>
+    <node x="343.0" y="1688.0">org.springframework.jms.support.QosSettings</node>
+    <node x="555.0" y="1165.0">org.springframework.jms.support.JmsHeaderMapper</node>
+    <node x="117.75" y="1012.0">org.springframework.jms.config.AbstractJmsListenerEndpoint</node>
+    <node x="357.0" y="1318.0">org.springframework.jms.connection.TransactionAwareConnectionFactoryProxy</node>
+    <node x="719.0" y="1540.0">org.springframework.jms.core.MessagePostProcessor</node>
+    <node x="1144.0" y="1392.0">org.springframework.jms.listener.endpoint.JmsMessageEndpointFactory</node>
+    <node x="536.0" y="933.0">org.springframework.jms.listener.endpoint.JmsActivationSpecFactory</node>
+    <node x="1356.0" y="1614.0">org.springframework.jms.connection.SessionProxy</node>
+    <node x="535.0" y="1244.0">org.springframework.jms.support.SimpleJmsHeaderMapper</node>
+    <node x="1370.5" y="933.0">org.springframework.jms.connection.JmsResourceHolder</node>
+    <node x="240.0" y="780.0">org.springframework.jms.support.destination.DynamicDestinationResolver</node>
+    <node x="855.0" y="701.0">org.springframework.jms.listener.SessionAwareMessageListener</node>
+    <node x="0.0" y="1614.0">org.springframework.jms.core.support.JmsGatewaySupport</node>
+    <node x="0.0" y="237.0">org.springframework.jms.listener.endpoint.JmsMessageEndpointManager</node>
+    <node x="14.5" y="1165.0">org.springframework.jms.connection.SmartConnectionFactory</node>
+    <node x="1323.0" y="1012.0">org.springframework.jms.listener.LocallyExposedJmsResourceHolder</node>
+    <node x="478.50980392156856" y="158.0">org.springframework.jms.listener.MessageListenerContainer</node>
+    <node x="1158.1911764705883" y="158.0">org.springframework.jms.listener.AbstractJmsListeningContainer</node>
+    <node x="244.0" y="1540.0">org.springframework.jms.connection.ConnectionFactoryUtils</node>
+    <node x="395.0" y="469.0">org.springframework.jms.support.converter.MessageConverter</node>
+    <node x="514.0" y="1091.0">org.springframework.jms.listener.endpoint.DefaultJmsActivationSpecFactory</node>
+    <node x="809.0" y="1614.0">org.springframework.jms.core.SessionCallback</node>
+    <node x="1081.1911764705883" y="237.0">org.springframework.jms.listener.AbstractMessageListenerContainer</node>
+    <node x="38.0" y="548.0">org.springframework.jms.support.converter.SmartMessageConverter</node>
+    <node x="0.0" y="1540.0">org.springframework.jms.connection.JmsTransactionManager</node>
+    <node x="256.0" y="237.0">org.springframework.jms.listener.endpoint.JmsActivationSpecConfig</node>
+    <node x="811.0" y="1466.0">org.springframework.jms.connection.CachedMessageConsumer</node>
+    <node x="1229.1911764705883" y="79.0">org.springframework.jms.support.destination.JmsDestinationAccessor</node>
+    <node x="1001.0" y="1614.0">org.springframework.jms.listener.adapter.JmsResponse</node>
+    <node x="1023.0" y="1165.0">org.springframework.jms.annotation.JmsListenerAnnotationBeanPostProcessor</node>
+    <node x="1082.5" y="859.0">org.springframework.jms.listener.adapter.MessageListenerAdapter</node>
+    <node x="923.5" y="933.0">org.springframework.jms.config.AbstractListenerContainerParser</node>
+    <node x="275.0" y="1244.0">org.springframework.jms.connection.CachingConnectionFactory</node>
+    <node x="0.0" y="627.0">org.springframework.jms.support.converter.MappingJackson2MessageConverter</node>
+    <node x="1057.0" y="1012.0">org.springframework.jms.config.JmsListenerContainerParser</node>
+    <node x="866.0" y="1392.0">org.springframework.jms.support.converter.MessageConversionException</node>
+    <node x="1422.9411764705883" y="158.0">org.springframework.jms.core.JmsTemplate</node>
+    <node x="774.0" y="859.0">org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter</node>
+    <node x="546.0" y="1466.0">org.springframework.jms.annotation.JmsBootstrapConfiguration</node>
+    <node x="273.0" y="1466.0">org.springframework.jms.support.JmsMessageHeaderAccessor</node>
+    <node x="421.0" y="1614.0">org.springframework.jms.core.BrowserCallback</node>
+    <node x="266.0" y="701.0">org.springframework.jms.support.destination.DestinationResolver</node>
+    <node x="0.0" y="1244.0">org.springframework.jms.connection.DelegatingConnectionFactory</node>
+    <node x="482.0" y="780.0">org.springframework.jms.support.destination.BeanFactoryDestinationResolver</node>
+    <node x="508.0" y="1012.0">org.springframework.jms.listener.endpoint.StandardJmsActivationSpecFactory</node>
+    <node x="144.25" y="933.0">org.springframework.jms.config.JmsListenerEndpoint</node>
+    <node x="1179.0" y="1614.0">org.springframework.jms.support.converter.MessageType</node>
+    <node x="1068.0" y="1318.0">org.springframework.jms.connection.SynchedLocalTransactionFailedException</node>
+    <node x="482.00000000000006" y="237.0">org.springframework.jms.config.JmsListenerContainerFactory</node>
+    <node x="12.0" y="859.0">org.springframework.jms.support.destination.JndiDestinationResolver</node>
+    <node x="840.5" y="780.0">org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener</node>
+    <node x="757.4215686274509" y="395.0">org.springframework.jms.config.SimpleJmsListenerContainerFactory</node>
+    <node x="1264.1911764705883" y="0.0">org.springframework.jms.support.JmsAccessor</node>
+    <node x="1020.4215686274509" y="316.0">org.springframework.jms.listener.AbstractPollingMessageListenerContainer</node>
+    <node x="0.0" y="1318.0">org.springframework.jms.connection.UserCredentialsConnectionFactoryAdapter</node>
+    <node x="616.0" y="1614.0">org.springframework.jms.core.MessageCreator</node>
+    <node x="292.0" y="316.0">org.springframework.jms.config.DefaultJcaListenerContainerFactory</node>
+    <node x="588.0" y="1392.0">org.springframework.jms.config.JmsListenerEndpointRegistrar</node>
+    <node x="0.0" y="1091.0">org.springframework.jms.config.MethodJmsListenerEndpoint</node>
+    <node x="1320.0" y="1466.0">org.springframework.jms.connection.CachedMessageProducer</node>
+    <node x="482.0" y="1540.0">org.springframework.jms.config.JmsNamespaceHandler</node>
+    <node x="838.0" y="1688.0">org.springframework.jms.support.JmsUtils</node>
+    <node x="1126.5" y="780.0">org.springframework.jms.listener.SubscriptionNameProvider</node>
+    <node x="783.0" y="1165.0">org.springframework.jms.core.JmsMessageOperations</node>
+    <node x="1345.421568627451" y="316.0">org.springframework.jms.listener.SimpleMessageListenerContainer</node>
+    <node x="956.0" y="1540.0">org.springframework.jms.config.JmsListenerConfigUtils</node>
+    <node x="783.0" y="1244.0">org.springframework.jms.core.JmsMessagingTemplate</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.jms.support.destination.JmsDestinationAccessor" target="org.springframework.jms.support.JmsAccessor">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.config.JmsListenerContainerParser" target="org.springframework.jms.config.AbstractListenerContainerParser">
+      <point x="0.0" y="-14.5" />
+      <point x="1167.5" y="987.0" />
+      <point x="1110.25" y="987.0" />
+      <point x="62.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.config.AbstractJmsListenerEndpoint" target="org.springframework.jms.config.JmsListenerEndpoint">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.listener.SimpleMessageListenerContainer" target="org.springframework.jms.listener.AbstractMessageListenerContainer">
+      <point x="0.0" y="-14.5" />
+      <point x="1470.921568627451" y="291.0" />
+      <point x="1301.1911764705883" y="291.0" />
+      <point x="87.99999999999994" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.connection.CachingConnectionFactory" target="org.springframework.jms.connection.SingleConnectionFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.listener.LocallyExposedJmsResourceHolder" target="org.springframework.jms.connection.JmsResourceHolder">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.support.converter.SmartMessageConverter" target="org.springframework.jms.support.converter.MessageConverter">
+      <point x="0.0" y="-14.5" />
+      <point x="137.5" y="518.0" />
+      <point x="415.375" y="518.0" />
+      <point x="-61.125" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.support.converter.MessagingMessageConverter" target="org.springframework.jms.support.converter.MessageConverter">
+      <point x="0.0" y="-14.5" />
+      <point x="594.5" y="528.0" />
+      <point x="496.875" y="528.0" />
+      <point x="20.375" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.listener.AbstractMessageListenerContainer" target="org.springframework.jms.listener.MessageListenerContainer">
+      <point x="-66.00000000000006" y="-14.5" />
+      <point x="1147.1911764705883" y="212.0" />
+      <point x="654.3431372549019" y="212.0" />
+      <point x="70.33333333333326" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.config.DefaultJmsListenerContainerFactory" target="org.springframework.jms.config.AbstractJmsListenerContainerFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="601.4215686274509" y="370.0" />
+      <point x="653.0" y="370.0" />
+      <point x="-70.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.listener.adapter.MessageListenerAdapter" target="org.springframework.jms.listener.SubscriptionNameProvider">
+      <point x="50.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.config.MethodJmsListenerEndpoint" target="org.springframework.jms.config.AbstractJmsListenerEndpoint">
+      <point x="0.0" y="-14.5" />
+      <point x="112.5" y="1066.0" />
+      <point x="175.5" y="1066.0" />
+      <point x="-57.75" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.listener.adapter.MessageListenerAdapter" target="org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener">
+      <point x="-50.0" y="-14.5" />
+      <point x="1132.5" y="834.0" />
+      <point x="1040.0" y="834.0" />
+      <point x="66.5" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.config.SimpleJmsListenerEndpoint" target="org.springframework.jms.config.AbstractJmsListenerEndpoint">
+      <point x="0.0" y="-14.5" />
+      <point x="354.0" y="1066.0" />
+      <point x="291.0" y="1066.0" />
+      <point x="57.75" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.listener.AbstractJmsListeningContainer" target="org.springframework.jms.support.destination.JmsDestinationAccessor">
+      <point x="0.0" y="-14.5" />
+      <point x="-50.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.config.JcaListenerContainerParser" target="org.springframework.jms.config.AbstractListenerContainerParser">
+      <point x="0.0" y="-14.5" />
+      <point x="928.5" y="987.0" />
+      <point x="985.75" y="987.0" />
+      <point x="-62.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.support.destination.CachingDestinationResolver" target="org.springframework.jms.support.destination.DestinationResolver">
+      <point x="0.0" y="-14.5" />
+      <point x="110.0" y="755.0" />
+      <point x="294.3333333333333" y="755.0" />
+      <point x="-56.666666666666664" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.support.destination.BeanFactoryDestinationResolver" target="org.springframework.jms.support.destination.DestinationResolver">
+      <point x="0.0" y="-14.5" />
+      <point x="605.5" y="755.0" />
+      <point x="407.66666666666663" y="755.0" />
+      <point x="56.66666666666666" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.support.destination.DynamicDestinationResolver" target="org.springframework.jms.support.destination.DestinationResolver">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.config.JmsListenerContainerFactory" target="org.springframework.jms.listener.MessageListenerContainer">
+      <point x="0.0" y="-14.5" />
+      <point x="596.0" y="212.0" />
+      <point x="584.0098039215686" y="212.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.support.converter.SimpleMessageConverter" target="org.springframework.jms.support.converter.MessageConverter">
+      <point x="0.0" y="-14.5" />
+      <point x="358.5" y="528.0" />
+      <point x="456.125" y="528.0" />
+      <point x="-20.375" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.config.DefaultJcaListenerContainerFactory" target="org.springframework.jms.listener.endpoint.JmsActivationSpecConfig">
+      <point x="-67.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.support.converter.MarshallingMessageConverter" target="org.springframework.jms.support.converter.MessageConverter">
+      <point x="0.0" y="-14.5" />
+      <point x="845.5" y="518.0" />
+      <point x="537.625" y="518.0" />
+      <point x="61.125" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.support.converter.MappingJackson2MessageConverter" target="org.springframework.jms.support.converter.SmartMessageConverter">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.listener.AbstractPollingMessageListenerContainer" target="org.springframework.jms.listener.AbstractMessageListenerContainer">
+      <point x="0.0" y="-14.5" />
+      <point x="1172.9215686274508" y="291.0" />
+      <point x="1213.1911764705883" y="291.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.config.AbstractJmsListenerContainerFactory" target="org.springframework.jms.config.JmsListenerContainerFactory">
+      <point x="-70.25" y="-14.5" />
+      <point x="57.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.core.JmsTemplate" target="org.springframework.jms.core.JmsOperations">
+      <point x="32.25" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.support.SimpleJmsHeaderMapper" target="org.springframework.jms.support.JmsHeaderMapper">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.listener.DefaultMessageListenerContainer" target="org.springframework.jms.listener.AbstractPollingMessageListenerContainer">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.core.JmsTemplate" target="org.springframework.jms.support.destination.JmsDestinationAccessor">
+      <point x="-32.25" y="-14.5" />
+      <point x="1455.1911764705883" y="133.0" />
+      <point x="1379.1911764705883" y="133.0" />
+      <point x="50.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.listener.AbstractMessageListenerContainer" target="org.springframework.jms.listener.AbstractJmsListeningContainer">
+      <point x="65.99999999999994" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter" target="org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener">
+      <point x="0.0" y="-14.5" />
+      <point x="-66.5" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.support.destination.JndiDestinationResolver" target="org.springframework.jms.support.destination.CachingDestinationResolver">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.listener.endpoint.JmsMessageEndpointManager" target="org.springframework.jms.listener.MessageListenerContainer">
+      <point x="0.0" y="-14.5" />
+      <point x="118.0" y="212.0" />
+      <point x="513.6764705882351" y="212.0" />
+      <point x="-70.33333333333337" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener" target="org.springframework.jms.listener.SessionAwareMessageListener">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.config.SimpleJmsListenerContainerFactory" target="org.springframework.jms.config.AbstractJmsListenerContainerFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="891.4215686274509" y="370.0" />
+      <point x="793.5" y="370.0" />
+      <point x="70.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.connection.DelegatingConnectionFactory" target="org.springframework.jms.connection.SmartConnectionFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.config.DefaultJcaListenerContainerFactory" target="org.springframework.jms.config.JmsListenerContainerFactory">
+      <point x="67.0" y="-14.5" />
+      <point x="493.0" y="291.0" />
+      <point x="539.0" y="291.0" />
+      <point x="-57.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.core.JmsMessagingTemplate" target="org.springframework.jms.core.JmsMessageOperations">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.listener.endpoint.DefaultJmsActivationSpecFactory" target="org.springframework.jms.listener.endpoint.StandardJmsActivationSpecFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.listener.endpoint.StandardJmsActivationSpecFactory" target="org.springframework.jms.listener.endpoint.JmsActivationSpecFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jms.config.AbstractJmsListenerContainerFactory" target="org.springframework.jms.listener.AbstractMessageListenerContainer">
+      <point x="70.25" y="-14.5" />
+      <point x="793.5" y="291.0" />
+      <point x="1125.1911764705883" y="291.0" />
+      <point x="-88.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="293.5" y="322.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

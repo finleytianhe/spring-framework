@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.cache.caffeine.CaffeineCache</OriginalElement>
+  <nodes>
+    <node x="270.49999999999994" y="158.0">org.springframework.cache.jcache.interceptor.AbstractJCacheKeyOperation</node>
+    <node x="770.0" y="79.0">org.springframework.cache.jcache.interceptor.AbstractJCacheOperation</node>
+    <node x="684.0" y="1303.0">org.springframework.scheduling.quartz.JobDetailFactoryBean</node>
+    <node x="51.0" y="390.0">org.springframework.cache.jcache.interceptor.JCacheOperationSource</node>
+    <node x="733.0" y="1229.0">org.springframework.cache.caffeine.CaffeineCacheManager</node>
+    <node x="294.0" y="1081.0">org.springframework.scheduling.quartz.SimpleThreadPoolTaskExecutor</node>
+    <node x="326.0" y="1007.0">org.springframework.scheduling.quartz.JobMethodInvocationFailedException</node>
+    <node x="952.0" y="1377.0">org.springframework.cache.jcache.JCacheCache</node>
+    <node x="547.0" y="701.0">org.springframework.mail.MailMessage</node>
+    <node x="301.0" y="854.0">org.springframework.cache.jcache.config.JCacheConfigurer</node>
+    <node x="371.99999999999994" y="316.0">org.springframework.cache.jcache.interceptor.CacheRemoveEntryInterceptor</node>
+    <node x="187.99999999999994" y="237.0">org.springframework.cache.jcache.interceptor.CacheResultOperation</node>
+    <node x="911.0" y="1303.0">org.springframework.cache.ehcache.EhCacheFactoryBean</node>
+    <node x="1163.5" y="701.0">org.springframework.cache.jcache.interceptor.DefaultCacheInvocationContext</node>
+    <node x="215.0" y="1377.0">org.springframework.scheduling.quartz.QuartzJobBean</node>
+    <node x="1005.0" y="469.0">org.springframework.cache.ehcache.EhCacheCacheManager</node>
+    <node x="839.0" y="316.0">org.springframework.cache.jcache.interceptor.CachePutInterceptor</node>
+    <node x="277.0" y="1155.0">org.springframework.cache.jcache.JCacheManagerFactoryBean</node>
+    <node x="229.0" y="1303.0">org.springframework.cache.ehcache.EhCacheManagerUtils</node>
+    <node x="404.0" y="1377.0">org.springframework.cache.ehcache.EhCacheCache</node>
+    <node x="530.0" y="854.0">org.springframework.cache.jcache.interceptor.JCacheAspectSupport</node>
+    <node x="557.0" y="469.0">org.springframework.scheduling.quartz.SchedulerFactoryBean</node>
+    <node x="489.0" y="1229.0">org.springframework.scheduling.quartz.CronTriggerFactoryBean</node>
+    <node x="16.5" y="548.0">org.springframework.cache.jcache.interceptor.AnnotationJCacheOperationSource</node>
+    <node x="952.0" y="1007.0">org.springframework.scheduling.quartz.ResourceLoaderClassLoadHelper</node>
+    <node x="0.0" y="1303.0">org.springframework.mail.javamail.InternetAddressEditor</node>
+    <node x="844.5" y="701.0">org.springframework.ui.freemarker.FreeMarkerConfigurationFactory</node>
+    <node x="808.0" y="1155.0">org.springframework.scheduling.quartz.SimpleTriggerFactoryBean</node>
+    <node x="370.5" y="390.0">org.springframework.mail.MailSender</node>
+    <node x="356.5" y="469.0">org.springframework.mail.javamail.JavaMailSender</node>
+    <node x="0.0" y="237.0">org.springframework.cache.jcache.interceptor.CachePutOperation</node>
+    <node x="0.0" y="701.0">org.springframework.scheduling.quartz.SchedulerContextAware</node>
+    <node x="627.0" y="316.0">org.springframework.cache.jcache.interceptor.CacheResultInterceptor</node>
+    <node x="392.99999999999994" y="237.0">org.springframework.cache.jcache.interceptor.CacheRemoveOperation</node>
+    <node x="1062.0" y="1155.0">org.springframework.scheduling.quartz.LocalDataSourceJobStore</node>
+    <node x="245.0" y="1229.0">org.springframework.mail.javamail.MimeMessagePreparator</node>
+    <node x="344.0" y="548.0">org.springframework.mail.javamail.JavaMailSenderImpl</node>
+    <node x="608.0" y="237.0">org.springframework.cache.jcache.interceptor.AbstractKeyCacheInterceptor</node>
+    <node x="0.0" y="1229.0">org.springframework.ui.freemarker.FreeMarkerTemplateUtils</node>
+    <node x="29.0" y="627.0">org.springframework.cache.jcache.interceptor.DefaultJCacheOperationSource</node>
+    <node x="761.0" y="854.0">org.springframework.cache.jcache.interceptor.BeanFactoryJCacheOperationSourceAdvisor</node>
+    <node x="9.0" y="933.0">org.springframework.cache.jcache.config.ProxyJCacheConfiguration</node>
+    <node x="216.0" y="701.0">org.springframework.scheduling.quartz.AdaptableJobFactory</node>
+    <node x="1135.0" y="1303.0">org.springframework.mail.javamail.MimeMessageHelper</node>
+    <node x="796.5" y="0.0">org.springframework.cache.jcache.interceptor.JCacheOperation</node>
+    <node x="107.75" y="780.0">org.springframework.scheduling.quartz.SpringBeanJobFactory</node>
+    <node x="440.0" y="780.0">org.springframework.mail.javamail.MimeMailMessage</node>
+    <node x="1127.0" y="854.0">org.springframework.cache.transaction.TransactionAwareCacheManagerProxy</node>
+    <node x="618.0" y="780.0">org.springframework.mail.SimpleMailMessage</node>
+    <node x="0.0" y="469.0">org.springframework.cache.jcache.interceptor.AbstractFallbackJCacheOperationSource</node>
+    <node x="1017.5384615384614" y="158.0">org.springframework.cache.jcache.interceptor.CacheRemoveAllOperation</node>
+    <node x="968.0" y="1229.0">org.springframework.cache.jcache.interceptor.CacheResolverAdapter</node>
+    <node x="589.0" y="1377.0">org.springframework.cache.caffeine.CaffeineCache</node>
+    <node x="457.0" y="1303.0">org.springframework.cache.jcache.interceptor.KeyGeneratorAdapter</node>
+    <node x="0.0" y="1081.0">org.springframework.cache.jcache.interceptor.JCacheOperationSourcePointcut</node>
+    <node x="771.0" y="1377.0">org.springframework.scheduling.quartz.DelegatingJob</node>
+    <node x="649.0" y="1007.0">org.springframework.cache.transaction.TransactionAwareCacheDecorator</node>
+    <node x="542.5" y="933.0">org.springframework.cache.jcache.interceptor.JCacheInterceptor</node>
+    <node x="545.0" y="1155.0">org.springframework.cache.jcache.interceptor.DefaultCacheMethodDetails</node>
+    <node x="858.0" y="237.0">org.springframework.cache.jcache.interceptor.CacheRemoveAllInterceptor</node>
+    <node x="790.5384615384614" y="158.0">org.springframework.cache.jcache.interceptor.AbstractCacheInterceptor</node>
+    <node x="1152.0" y="780.0">org.springframework.cache.jcache.interceptor.DefaultCacheKeyInvocationContext</node>
+    <node x="829.0" y="780.0">org.springframework.ui.freemarker.FreeMarkerConfigurationFactoryBean</node>
+    <node x="763.0" y="469.0">org.springframework.scheduling.quartz.SchedulerAccessorBean</node>
+    <node x="1200.0" y="1229.0">org.springframework.ui.freemarker.SpringTemplateLoader</node>
+    <node x="0.0" y="1007.0">org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean</node>
+    <node x="1218.0" y="469.0">org.springframework.cache.jcache.JCacheCacheManager</node>
+    <node x="276.0" y="933.0">org.springframework.cache.jcache.config.JCacheConfigurerSupport</node>
+    <node x="0.0" y="1155.0">org.springframework.cache.ehcache.EhCacheManagerFactoryBean</node>
+    <node x="0.0" y="1377.0">org.springframework.mail.javamail.SmartMimeMessage</node>
+    <node x="1038.75" y="390.0">org.springframework.cache.transaction.AbstractTransactionSupportingCacheManager</node>
+    <node x="865.0" y="1081.0">org.springframework.mail.javamail.ConfigurableMimeFileTypeMap</node>
+    <node x="0.0" y="854.0">org.springframework.cache.jcache.config.AbstractJCacheConfiguration</node>
+    <node x="1145.0" y="1081.0">org.springframework.scheduling.quartz.LocalTaskExecutorThreadPool</node>
+    <node x="672.75" y="390.0">org.springframework.scheduling.quartz.SchedulerAccessor</node>
+    <node x="581.0" y="1081.0">org.springframework.cache.jcache.interceptor.SimpleExceptionCacheResolver</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.cache.jcache.interceptor.CachePutOperation" target="org.springframework.cache.jcache.interceptor.AbstractJCacheKeyOperation">
+      <point x="0.0" y="-14.5" />
+      <point x="84.0" y="207.0" />
+      <point x="299.24999999999994" y="207.0" />
+      <point x="-86.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.cache.jcache.interceptor.CacheResultOperation" target="org.springframework.cache.jcache.interceptor.AbstractJCacheKeyOperation">
+      <point x="0.0" y="-14.5" />
+      <point x="280.49999999999994" y="217.0" />
+      <point x="356.74999999999994" y="217.0" />
+      <point x="-28.75" y="14.5" />
+    </edge>
+    <edge source="org.springframework.cache.jcache.interceptor.AbstractCacheInterceptor" target="org.springframework.cache.jcache.interceptor.AbstractJCacheOperation">
+      <point x="0.0" y="-14.5" />
+      <point x="894.0384615384614" y="133.0" />
+      <point x="873.5" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.cache.jcache.interceptor.CacheResultInterceptor" target="org.springframework.cache.jcache.interceptor.AbstractKeyCacheInterceptor">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.cache.jcache.JCacheCacheManager" target="org.springframework.cache.transaction.AbstractTransactionSupportingCacheManager">
+      <point x="0.0" y="-14.5" />
+      <point x="1310.0" y="444.0" />
+      <point x="1289.25" y="444.0" />
+      <point x="83.5" y="14.5" />
+    </edge>
+    <edge source="org.springframework.mail.SimpleMailMessage" target="org.springframework.mail.MailMessage">
+      <point x="0.0" y="-14.5" />
+      <point x="701.0" y="755.0" />
+      <point x="641.5" y="755.0" />
+      <point x="31.5" y="14.5" />
+    </edge>
+    <edge source="org.springframework.cache.jcache.interceptor.AnnotationJCacheOperationSource" target="org.springframework.cache.jcache.interceptor.AbstractFallbackJCacheOperationSource">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.scheduling.quartz.SpringBeanJobFactory" target="org.springframework.scheduling.quartz.AdaptableJobFactory">
+      <point x="47.0" y="-14.5" />
+      <point x="248.75" y="755.0" />
+      <point x="305.5" y="755.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.cache.jcache.interceptor.JCacheInterceptor" target="org.springframework.cache.jcache.interceptor.JCacheAspectSupport">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.cache.jcache.config.ProxyJCacheConfiguration" target="org.springframework.cache.jcache.config.AbstractJCacheConfiguration">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.cache.jcache.config.JCacheConfigurerSupport" target="org.springframework.cache.jcache.config.JCacheConfigurer">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.cache.ehcache.EhCacheCacheManager" target="org.springframework.cache.transaction.AbstractTransactionSupportingCacheManager">
+      <point x="0.0" y="-14.5" />
+      <point x="1101.5" y="444.0" />
+      <point x="1122.25" y="444.0" />
+      <point x="-83.5" y="14.5" />
+    </edge>
+    <edge source="org.springframework.cache.jcache.interceptor.AbstractJCacheKeyOperation" target="org.springframework.cache.jcache.interceptor.AbstractJCacheOperation">
+      <point x="0.0" y="-14.5" />
+      <point x="385.49999999999994" y="133.0" />
+      <point x="804.5" y="133.0" />
+      <point x="-69.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.mail.javamail.JavaMailSender" target="org.springframework.mail.MailSender">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.cache.jcache.interceptor.AbstractJCacheOperation" target="org.springframework.cache.jcache.interceptor.JCacheOperation">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.scheduling.quartz.SchedulerFactoryBean" target="org.springframework.scheduling.quartz.SchedulerAccessor">
+      <point x="0.0" y="-14.5" />
+      <point x="650.0" y="444.0" />
+      <point x="714.25" y="444.0" />
+      <point x="-41.5" y="14.5" />
+    </edge>
+    <edge source="org.springframework.cache.jcache.interceptor.CacheRemoveOperation" target="org.springframework.cache.jcache.interceptor.AbstractJCacheKeyOperation">
+      <point x="0.0" y="-14.5" />
+      <point x="490.49999999999994" y="217.0" />
+      <point x="414.24999999999994" y="217.0" />
+      <point x="28.75" y="14.5" />
+    </edge>
+    <edge source="org.springframework.mail.javamail.JavaMailSenderImpl" target="org.springframework.mail.javamail.JavaMailSender">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.cache.jcache.interceptor.AbstractKeyCacheInterceptor" target="org.springframework.cache.jcache.interceptor.AbstractJCacheKeyOperation">
+      <point x="-57.5" y="-14.5" />
+      <point x="665.5" y="207.0" />
+      <point x="471.74999999999994" y="207.0" />
+      <point x="86.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.cache.jcache.interceptor.DefaultCacheKeyInvocationContext" target="org.springframework.cache.jcache.interceptor.DefaultCacheInvocationContext">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.scheduling.quartz.SpringBeanJobFactory" target="org.springframework.scheduling.quartz.SchedulerContextAware">
+      <point x="-47.0" y="-14.5" />
+      <point x="154.75" y="755.0" />
+      <point x="98.0" y="755.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.mail.javamail.MimeMailMessage" target="org.springframework.mail.MailMessage">
+      <point x="0.0" y="-14.5" />
+      <point x="519.0" y="755.0" />
+      <point x="578.5" y="755.0" />
+      <point x="-31.5" y="14.5" />
+    </edge>
+    <edge source="org.springframework.cache.jcache.interceptor.CachePutInterceptor" target="org.springframework.cache.jcache.interceptor.AbstractKeyCacheInterceptor">
+      <point x="0.0" y="-14.5" />
+      <point x="926.5" y="291.0" />
+      <point x="799.6666666666666" y="291.0" />
+      <point x="76.66666666666669" y="14.5" />
+    </edge>
+    <edge source="org.springframework.cache.jcache.interceptor.DefaultJCacheOperationSource" target="org.springframework.cache.jcache.interceptor.AnnotationJCacheOperationSource">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.cache.jcache.interceptor.CacheRemoveAllInterceptor" target="org.springframework.cache.jcache.interceptor.AbstractCacheInterceptor">
+      <point x="0.0" y="-14.5" />
+      <point x="966.5" y="217.0" />
+      <point x="945.7884615384614" y="217.0" />
+      <point x="51.75" y="14.5" />
+    </edge>
+    <edge source="org.springframework.cache.jcache.interceptor.AbstractFallbackJCacheOperationSource" target="org.springframework.cache.jcache.interceptor.JCacheOperationSource">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.cache.jcache.interceptor.CacheRemoveAllOperation" target="org.springframework.cache.jcache.interceptor.AbstractJCacheOperation">
+      <point x="0.0" y="-14.5" />
+      <point x="1122.5384615384614" y="133.0" />
+      <point x="942.5" y="133.0" />
+      <point x="69.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.cache.jcache.interceptor.CacheRemoveEntryInterceptor" target="org.springframework.cache.jcache.interceptor.AbstractKeyCacheInterceptor">
+      <point x="5.6843418860808015E-14" y="-14.5" />
+      <point x="489.5" y="291.0" />
+      <point x="646.3333333333333" y="291.0" />
+      <point x="-76.66666666666669" y="14.5" />
+    </edge>
+    <edge source="org.springframework.ui.freemarker.FreeMarkerConfigurationFactoryBean" target="org.springframework.ui.freemarker.FreeMarkerConfigurationFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.cache.jcache.interceptor.AbstractKeyCacheInterceptor" target="org.springframework.cache.jcache.interceptor.AbstractCacheInterceptor">
+      <point x="57.5" y="-14.5" />
+      <point x="780.5" y="217.0" />
+      <point x="842.2884615384614" y="217.0" />
+      <point x="-51.75" y="14.5" />
+    </edge>
+    <edge source="org.springframework.scheduling.quartz.SchedulerAccessorBean" target="org.springframework.scheduling.quartz.SchedulerAccessor">
+      <point x="0.0" y="-14.5" />
+      <point x="861.5" y="444.0" />
+      <point x="797.25" y="444.0" />
+      <point x="41.5" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="114.5" y="93.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

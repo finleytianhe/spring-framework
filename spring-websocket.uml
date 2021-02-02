@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.web.socket.AbstractWebSocketMessage</OriginalElement>
+  <nodes>
+    <node x="747.75" y="1402.0">org.springframework.web.socket.client.AbstractWebSocketClient</node>
+    <node x="1215.0" y="2088.0">org.springframework.web.socket.config.annotation.WebSocketTransportRegistration</node>
+    <node x="0.0" y="1940.0">org.springframework.web.socket.config.annotation.DelegatingWebSocketConfiguration</node>
+    <node x="1477.0" y="1861.0">org.springframework.web.socket.messaging.SubProtocolHandler</node>
+    <node x="178.5" y="1402.0">org.springframework.web.socket.AbstractWebSocketMessage</node>
+    <node x="0.0" y="2014.0">org.springframework.web.socket.adapter.jetty.WebSocketToJettyExtensionConfigAdapter</node>
+    <node x="452.3194444444444" y="237.0">org.springframework.web.socket.sockjs.transport.session.WebSocketServerSockJsSession</node>
+    <node x="537.0" y="2310.0">org.springframework.web.socket.CloseStatus</node>
+    <node x="0.0" y="2088.0">org.springframework.web.socket.server.standard.ServletServerContainerFactoryBean</node>
+    <node x="595.75" y="390.0">org.springframework.web.socket.sockjs.transport.TransportHandler</node>
+    <node x="1736.0" y="1861.0">org.springframework.web.socket.sockjs.client.TransportRequest</node>
+    <node x="1115.25" y="158.0">org.springframework.web.socket.sockjs.client.AbstractClientSockJsSession</node>
+    <node x="149.0" y="1481.0">org.springframework.web.socket.PingMessage</node>
+    <node x="459.0" y="1481.0">org.springframework.web.socket.PongMessage</node>
+    <node x="816.0" y="1787.0">org.springframework.web.socket.server.support.HttpSessionHandshakeInterceptor</node>
+    <node x="1785.125" y="1249.0">org.springframework.web.socket.sockjs.client.UndertowXhrTransport</node>
+    <node x="512.5" y="627.0">org.springframework.web.socket.sockjs.transport.handler.XhrPollingTransportHandler</node>
+    <node x="650.5769230769231" y="1249.0">org.springframework.web.socket.sockjs.transport.handler.SockJsWebSocketHandler</node>
+    <node x="229.0" y="1634.0">org.springframework.web.socket.messaging.SessionSubscribeEvent</node>
+    <node x="602.25" y="548.0">org.springframework.web.socket.sockjs.transport.handler.AbstractHttpSendingTransportHandler</node>
+    <node x="1592.125" y="1170.0">org.springframework.web.socket.sockjs.client.AbstractXhrTransport</node>
+    <node x="1372.0" y="1555.0">org.springframework.web.socket.client.ConnectionManagerSupport</node>
+    <node x="722.9999999999999" y="859.0">org.springframework.web.socket.server.standard.WebSphereRequestUpgradeStrategy</node>
+    <node x="7.5" y="1861.0">org.springframework.web.socket.config.annotation.WebSocketConfigurationSupport</node>
+    <node x="616.0" y="1940.0">org.springframework.web.socket.config.annotation.WebMvcStompEndpointRegistry</node>
+    <node x="1457.0" y="1940.0">org.springframework.web.socket.messaging.StompSubProtocolHandler</node>
+    <node x="0.0" y="2162.0">org.springframework.web.socket.server.support.WebSocketHttpRequestHandler</node>
+    <node x="706.0" y="2014.0">org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurer</node>
+    <node x="211.3194444444444" y="237.0">org.springframework.web.socket.sockjs.transport.session.AbstractHttpSockJsSession</node>
+    <node x="313.0" y="1940.0">org.springframework.web.socket.config.annotation.ServletWebSocketHandlerRegistry</node>
+    <node x="1119.125" y="1170.0">org.springframework.web.socket.handler.BinaryWebSocketHandler</node>
+    <node x="1804.0" y="2088.0">org.springframework.web.socket.config.WebSocketMessageBrokerStats</node>
+    <node x="1589.875" y="1012.0">org.springframework.web.socket.sockjs.client.InfoReceiver</node>
+    <node x="866.4999999999999" y="780.0">org.springframework.web.socket.server.jetty.Jetty10RequestUpgradeStrategy</node>
+    <node x="617.5694444444443" y="316.0">org.springframework.web.socket.adapter.jetty.JettyWebSocketSession</node>
+    <node x="1777.375" y="1012.0">org.springframework.web.socket.sockjs.client.Transport</node>
+    <node x="343.5" y="79.0">org.springframework.web.socket.sockjs.transport.SockJsSession</node>
+    <node x="35.0" y="79.0">org.springframework.web.socket.handler.WebSocketSessionDecorator</node>
+    <node x="584.4999999999999" y="780.0">org.springframework.web.socket.server.standard.AbstractStandardUpgradeStrategy</node>
+    <node x="728.3194444444443" y="158.0">org.springframework.web.socket.adapter.NativeWebSocketSession</node>
+    <node x="274.0" y="1787.0">org.springframework.web.socket.sockjs.SockJsMessageDeliveryException</node>
+    <node x="1122.0" y="1787.0">org.springframework.web.socket.config.annotation.DelegatingWebSocketMessageBrokerConfiguration</node>
+    <node x="2092.125" y="1170.0">org.springframework.web.socket.sockjs.transport.TransportHandlingSockJsService</node>
+    <node x="1981.0" y="2014.0">org.springframework.web.socket.adapter.standard.ConvertingEncoderDecoderSupport</node>
+    <node x="763.0" y="2236.0">org.springframework.web.socket.WebSocketHttpHeaders</node>
+    <node x="973.75" y="1402.0">org.springframework.web.socket.sockjs.client.SockJsClient</node>
+    <node x="1005.0" y="2236.0">org.springframework.web.socket.server.standard.ServerEndpointExporter</node>
+    <node x="1196.0" y="1940.0">org.springframework.web.socket.sockjs.frame.DefaultSockJsFrameFormat</node>
+    <node x="616.0" y="2088.0">org.springframework.web.socket.client.standard.WebSocketContainerFactoryBean</node>
+    <node x="659.0" y="1634.0">org.springframework.web.socket.messaging.SessionConnectEvent</node>
+    <node x="363.0" y="2310.0">org.springframework.web.socket.sockjs.frame.SockJsFrame</node>
+    <node x="1283.0" y="469.0">org.springframework.web.socket.server.HandshakeHandler</node>
+    <node x="1925.0" y="2236.0">org.springframework.web.socket.sockjs.frame.SockJsFrameType</node>
+    <node x="367.7019230769231" y="1091.0">org.springframework.web.socket.handler.WebSocketHandlerDecorator</node>
+    <node x="286.5" y="627.0">org.springframework.web.socket.sockjs.transport.handler.HtmlFileTransportHandler</node>
+    <node x="721.3194444444443" y="237.0">org.springframework.web.socket.adapter.AbstractWebSocketSession</node>
+    <node x="1123.0" y="2162.0">org.springframework.web.socket.server.support.HandshakeInterceptorChain</node>
+    <node x="1916.0" y="1787.0">org.springframework.web.socket.adapter.standard.StandardToWebSocketExtensionAdapter</node>
+    <node x="0.0" y="158.0">org.springframework.web.socket.handler.ConcurrentWebSocketSessionDecorator</node>
+    <node x="184.0" y="2310.0">org.springframework.web.socket.sockjs.client.SockJsUrlInfo</node>
+    <node x="2048.625" y="1012.0">org.springframework.web.socket.sockjs.SockJsService</node>
+    <node x="361.0" y="2014.0">org.springframework.web.socket.adapter.standard.WebSocketToStandardExtensionAdapter</node>
+    <node x="906.125" y="1170.0">org.springframework.web.socket.handler.TextWebSocketHandler</node>
+    <node x="723.25" y="1708.0">org.springframework.web.socket.server.HandshakeInterceptor</node>
+    <node x="1218.0" y="1861.0">org.springframework.web.socket.sockjs.frame.SockJsFrameFormat</node>
+    <node x="867.5" y="1323.0">org.springframework.web.socket.client.WebSocketClient</node>
+    <node x="752.5" y="627.0">org.springframework.web.socket.sockjs.transport.handler.EventSourceTransportHandler</node>
+    <node x="311.0" y="2088.0">org.springframework.web.socket.adapter.jetty.Jetty10WebSocketHandlerAdapter</node>
+    <node x="441.0" y="1634.0">org.springframework.web.socket.messaging.SessionConnectedEvent</node>
+    <node x="1145.75" y="1402.0">org.springframework.web.socket.config.annotation.AbstractWebSocketHandlerRegistration</node>
+    <node x="29.5" y="627.0">org.springframework.web.socket.sockjs.transport.handler.XhrReceivingTransportHandler</node>
+    <node x="2022.1249999999998" y="1091.0">org.springframework.web.socket.sockjs.support.AbstractSockJsService</node>
+    <node x="1617.0" y="1634.0">org.springframework.web.socket.client.standard.AnnotatedEndpointConnectionManager</node>
+    <node x="1603.125" y="1249.0">org.springframework.web.socket.sockjs.client.JettyXhrTransport</node>
+    <node x="1962.0" y="1861.0">org.springframework.web.socket.messaging.WebSocketAnnotationMethodMessageHandler</node>
+    <node x="569.25" y="469.0">org.springframework.web.socket.sockjs.transport.handler.AbstractTransportHandler</node>
+    <node x="1652.0" y="2162.0">org.springframework.web.socket.server.HandshakeFailureException</node>
+    <node x="90.7019230769231" y="1091.0">org.springframework.web.socket.handler.PerConnectionWebSocketHandler</node>
+    <node x="298.0" y="1481.0">org.springframework.web.socket.BinaryMessage</node>
+    <node x="960.3194444444443" y="237.0">org.springframework.web.socket.sockjs.client.WebSocketClientSockJsSession</node>
+    <node x="574.0" y="1787.0">org.springframework.web.socket.server.support.OriginHandshakeInterceptor</node>
+    <node x="916.0" y="2088.0">org.springframework.web.socket.config.annotation.EnableWebSocketMessageBroker</node>
+    <node x="405.125" y="1170.0">org.springframework.web.socket.SubProtocolCapable</node>
+    <node x="108.125" y="1170.0">org.springframework.web.socket.handler.LoggingWebSocketHandlerDecorator</node>
+    <node x="1714.0" y="1940.0">org.springframework.web.socket.sockjs.client.DefaultTransportRequest</node>
+    <node x="283.9999999999999" y="938.0">org.springframework.web.socket.server.standard.GlassFishRequestUpgradeStrategy</node>
+    <node x="2178.0" y="2162.0">org.springframework.web.socket.config.WebSocketNamespaceUtils</node>
+    <node x="0.0" y="2236.0">org.springframework.web.socket.server.standard.ServerEndpointRegistration</node>
+    <node x="1348.0" y="2014.0">org.springframework.web.socket.config.MessageBrokerBeanDefinitionParser</node>
+    <node x="280.375" y="1012.0">org.springframework.web.socket.WebSocketHandler</node>
+    <node x="0.0" y="938.0">org.springframework.web.socket.server.standard.WebLogicRequestUpgradeStrategy</node>
+    <node x="125.56944444444446" y="316.0">org.springframework.web.socket.sockjs.transport.session.PollingSockJsSession</node>
+    <node x="262.0" y="2236.0">org.springframework.web.socket.config.annotation.SockJsServiceRegistration</node>
+    <node x="1246.0" y="2236.0">org.springframework.web.socket.messaging.WebSocketStompClient</node>
+    <node x="41.201923076923094" y="1249.0">org.springframework.web.socket.messaging.SubProtocolWebSocketHandler</node>
+    <node x="1007.5" y="627.0">org.springframework.web.socket.sockjs.transport.handler.XhrStreamingTransportHandler</node>
+    <node x="0.0" y="1481.0">org.springframework.web.socket.TextMessage</node>
+    <node x="1297.75" y="548.0">org.springframework.web.socket.server.support.AbstractHandshakeHandler</node>
+    <node x="571.0" y="2162.0">org.springframework.web.socket.config.HandlersBeanDefinitionParser</node>
+    <node x="1513.0" y="2088.0">org.springframework.web.socket.adapter.jetty.JettyWebSocketHandlerAdapter</node>
+    <node x="1369.0" y="1634.0">org.springframework.web.socket.client.standard.EndpointConnectionManager</node>
+    <node x="862.0" y="1634.0">org.springframework.web.socket.messaging.SessionDisconnectEvent</node>
+    <node x="1107.0" y="1634.0">org.springframework.web.socket.client.WebSocketConnectionManager</node>
+    <node x="1513.25" y="1323.0">org.springframework.web.socket.sockjs.frame.SockJsMessageCodec</node>
+    <node x="1484.0" y="2236.0">org.springframework.web.socket.config.annotation.WebSocketConfigurer</node>
+    <node x="867.0" y="1481.0">org.springframework.web.socket.client.jetty.JettyWebSocketClient</node>
+    <node x="334.0" y="1861.0">org.springframework.web.socket.config.annotation.WebSocketHandlerRegistry</node>
+    <node x="2231.125" y="1091.0">org.springframework.web.socket.sockjs.transport.SockJsServiceConfig</node>
+    <node x="1915.0" y="2162.0">org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler</node>
+    <node x="598.125" y="1170.0">org.springframework.web.socket.handler.ExceptionWebSocketHandlerDecorator</node>
+    <node x="1151.25" y="1481.0">org.springframework.web.socket.config.annotation.ServletWebSocketHandlerRegistration</node>
+    <node x="1665.0" y="2014.0">org.springframework.web.socket.adapter.standard.StandardWebSocketHandlerAdapter</node>
+    <node x="187.75" y="1708.0">org.springframework.web.socket.sockjs.SockJsException</node>
+    <node x="1483.75" y="1481.0">org.springframework.web.socket.sockjs.frame.Jackson2SockJsMessageCodec</node>
+    <node x="919.75" y="548.0">org.springframework.web.socket.sockjs.transport.handler.WebSocketTransportHandler</node>
+    <node x="638.0" y="1481.0">org.springframework.web.socket.client.standard.StandardWebSocketClient</node>
+    <node x="2128.125" y="1249.0">org.springframework.web.socket.sockjs.transport.handler.DefaultSockJsService</node>
+    <node x="317.0" y="158.0">org.springframework.web.socket.sockjs.transport.session.AbstractSockJsSession</node>
+    <node x="848.0" y="2162.0">org.springframework.web.socket.handler.BeanCreatingHandlerProvider</node>
+    <node x="127.99999999999989" y="859.0">org.springframework.web.socket.server.standard.AbstractTyrusRequestUpgradeStrategy</node>
+    <node x="1002.625" y="1091.0">org.springframework.web.socket.handler.AbstractWebSocketHandler</node>
+    <node x="1618.625" y="1091.0">org.springframework.web.socket.sockjs.client.XhrTransport</node>
+    <node x="1769.625" y="1091.0">org.springframework.web.socket.sockjs.client.WebSocketTransport</node>
+    <node x="1302.25" y="627.0">org.springframework.web.socket.server.support.DefaultHandshakeHandler</node>
+    <node x="1530.0" y="1787.0">org.springframework.web.socket.config.annotation.WebMvcStompWebSocketEndpointRegistration</node>
+    <node x="1388.0" y="2162.0">org.springframework.web.socket.server.support.WebSocketHandlerMapping</node>
+    <node x="888.9999999999999" y="701.0">org.springframework.web.socket.server.RequestUpgradeStrategy</node>
+    <node x="2094.0" y="2088.0">org.springframework.web.socket.handler.SessionLimitExceededException</node>
+    <node x="2129.0" y="2236.0">org.springframework.web.socket.config.annotation.EnableWebSocket</node>
+    <node x="1486.75" y="1402.0">org.springframework.web.socket.sockjs.frame.AbstractSockJsMessageCodec</node>
+    <node x="1369.125" y="1249.0">org.springframework.web.socket.sockjs.client.RestTemplateXhrTransport</node>
+    <node x="928.0" y="1861.0">org.springframework.web.socket.messaging.SubProtocolErrorHandler</node>
+    <node x="1172.25" y="1323.0">org.springframework.web.socket.config.annotation.WebSocketHandlerRegistration</node>
+    <node x="1134.5" y="780.0">org.springframework.web.socket.server.jetty.JettyRequestUpgradeStrategy</node>
+    <node x="517.4444444444443" y="0.0">org.springframework.web.socket.WebSocketSession</node>
+    <node x="0.0" y="1634.0">org.springframework.web.socket.messaging.SessionUnsubscribeEvent</node>
+    <node x="434.0" y="1555.0">org.springframework.web.socket.messaging.AbstractSubProtocolEvent</node>
+    <node x="326.5694444444444" y="316.0">org.springframework.web.socket.sockjs.transport.session.StreamingSockJsSession</node>
+    <node x="1129.5" y="1708.0">org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurationSupport</node>
+    <node x="1976.5" y="1708.0">org.springframework.web.socket.WebSocketExtension</node>
+    <node x="289.0" y="2162.0">org.springframework.web.socket.config.WebSocketNamespaceHandler</node>
+    <node x="438.9999999999999" y="859.0">org.springframework.web.socket.server.standard.UndertowRequestUpgradeStrategy</node>
+    <node x="0.0" y="548.0">org.springframework.web.socket.sockjs.transport.handler.AbstractHttpReceivingTransportHandler</node>
+    <node x="205.0" y="1323.0">org.springframework.web.socket.WebSocketMessage</node>
+    <node x="0.0" y="1787.0">org.springframework.web.socket.sockjs.SockJsTransportFailureException</node>
+    <node x="834.5694444444443" y="316.0">org.springframework.web.socket.adapter.standard.StandardWebSocketSession</node>
+    <node x="1713.0" y="2236.0">org.springframework.web.socket.server.standard.SpringConfigurator</node>
+    <node x="893.75" y="469.0">org.springframework.web.socket.sockjs.transport.SockJsSessionFactory</node>
+    <node x="1556.5" y="1708.0">org.springframework.web.socket.config.annotation.StompWebSocketEndpointRegistration</node>
+    <node x="642.5" y="1861.0">org.springframework.web.socket.config.annotation.StompEndpointRegistry</node>
+    <node x="0.0" y="2310.0">org.springframework.web.socket.sockjs.transport.TransportType</node>
+    <node x="1225.3194444444443" y="237.0">org.springframework.web.socket.sockjs.client.XhrClientSockJsSession</node>
+    <node x="908.0" y="1940.0">org.springframework.web.socket.messaging.StompSubProtocolErrorHandler</node>
+    <node x="517.0" y="2236.0">org.springframework.web.socket.messaging.DefaultSimpUserRegistry</node>
+    <node x="1030.0" y="2014.0">org.springframework.web.socket.handler.WebSocketHandlerDecoratorFactory</node>
+    <node x="1016.9999999999999" y="859.0">org.springframework.web.socket.server.standard.TomcatRequestUpgradeStrategy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.web.socket.sockjs.transport.handler.EventSourceTransportHandler" target="org.springframework.web.socket.sockjs.transport.handler.AbstractHttpSendingTransportHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="870.0" y="607.0" />
+      <point x="782.25" y="607.0" />
+      <point x="36.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.config.annotation.WebMvcStompEndpointRegistry" target="org.springframework.web.socket.config.annotation.StompEndpointRegistry">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.server.standard.AbstractTyrusRequestUpgradeStrategy" target="org.springframework.web.socket.server.standard.AbstractStandardUpgradeStrategy">
+      <point x="0.0" y="-14.5" />
+      <point x="273.4999999999999" y="829.0" />
+      <point x="617.2499999999999" y="829.0" />
+      <point x="-98.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.transport.handler.AbstractHttpSendingTransportHandler" target="org.springframework.web.socket.sockjs.transport.SockJsSessionFactory">
+      <point x="72.0" y="-14.5" />
+      <point x="818.25" y="528.0" />
+      <point x="940.25" y="528.0" />
+      <point x="-46.5" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.client.standard.EndpointConnectionManager" target="org.springframework.web.socket.client.ConnectionManagerSupport">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.transport.SockJsSession" target="org.springframework.web.socket.WebSocketSession">
+      <point x="0.0" y="-14.5" />
+      <point x="413.5" y="59.0" />
+      <point x="579.6944444444443" y="59.0" />
+      <point x="-20.75" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.transport.session.AbstractSockJsSession" target="org.springframework.web.socket.sockjs.transport.SockJsSession">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.transport.handler.WebSocketTransportHandler" target="org.springframework.web.socket.sockjs.transport.SockJsSessionFactory">
+      <point x="-1.4210854715202004E-14" y="-14.5" />
+      <point x="46.5" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.messaging.StompSubProtocolErrorHandler" target="org.springframework.web.socket.messaging.SubProtocolErrorHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.client.jetty.JettyWebSocketClient" target="org.springframework.web.socket.client.AbstractWebSocketClient">
+      <point x="0.0" y="-14.5" />
+      <point x="959.0" y="1456.0" />
+      <point x="902.25" y="1456.0" />
+      <point x="51.5" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.config.annotation.ServletWebSocketHandlerRegistration" target="org.springframework.web.socket.config.annotation.AbstractWebSocketHandlerRegistration">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.adapter.AbstractWebSocketSession" target="org.springframework.web.socket.adapter.NativeWebSocketSession">
+      <point x="0.0" y="-14.5" />
+      <point x="-1.4210854715202004E-14" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.server.standard.WebLogicRequestUpgradeStrategy" target="org.springframework.web.socket.server.standard.AbstractTyrusRequestUpgradeStrategy">
+      <point x="0.0" y="-14.5" />
+      <point x="132.0" y="913.0" />
+      <point x="200.7499999999999" y="913.0" />
+      <point x="-72.75" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.transport.TransportHandlingSockJsService" target="org.springframework.web.socket.sockjs.transport.SockJsServiceConfig">
+      <point x="63.0" y="-14.5" />
+      <point x="2281.125" y="1145.0" />
+      <point x="2319.625" y="1145.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.SockJsMessageDeliveryException" target="org.springframework.web.socket.sockjs.SockJsException">
+      <point x="0.0" y="-14.5" />
+      <point x="401.5" y="1762.0" />
+      <point x="302.5" y="1762.0" />
+      <point x="38.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.client.WebSocketClientSockJsSession" target="org.springframework.web.socket.adapter.NativeWebSocketSession">
+      <point x="-61.25" y="-14.5" />
+      <point x="1021.5694444444443" y="212.0" />
+      <point x="899.1527777777777" y="212.0" />
+      <point x="68.33333333333331" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.AbstractWebSocketMessage" target="org.springframework.web.socket.WebSocketMessage">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.server.standard.GlassFishRequestUpgradeStrategy" target="org.springframework.web.socket.server.standard.AbstractTyrusRequestUpgradeStrategy">
+      <point x="0.0" y="-14.5" />
+      <point x="414.9999999999999" y="913.0" />
+      <point x="346.2499999999999" y="913.0" />
+      <point x="72.75" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.server.standard.WebSphereRequestUpgradeStrategy" target="org.springframework.web.socket.server.standard.AbstractStandardUpgradeStrategy">
+      <point x="0.0" y="-14.5" />
+      <point x="859.9999999999999" y="839.0" />
+      <point x="748.2499999999999" y="839.0" />
+      <point x="32.75" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.server.support.OriginHandshakeInterceptor" target="org.springframework.web.socket.server.HandshakeInterceptor">
+      <point x="0.0" y="-14.5" />
+      <point x="685.0" y="1762.0" />
+      <point x="769.5" y="1762.0" />
+      <point x="-46.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.transport.handler.SockJsWebSocketHandler" target="org.springframework.web.socket.handler.TextWebSocketHandler">
+      <point x="52.5" y="-14.5" />
+      <point x="808.0769230769231" y="1224.0" />
+      <point x="1002.625" y="1224.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.messaging.StompSubProtocolHandler" target="org.springframework.web.socket.messaging.SubProtocolHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.messaging.SessionConnectedEvent" target="org.springframework.web.socket.messaging.AbstractSubProtocolEvent">
+      <point x="0.0" y="-14.5" />
+      <point x="1.4210854715202004E-14" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.handler.WebSocketSessionDecorator" target="org.springframework.web.socket.WebSocketSession">
+      <point x="0.0" y="-14.5" />
+      <point x="148.5" y="49.0" />
+      <point x="538.1944444444443" y="49.0" />
+      <point x="-62.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.SockJsTransportFailureException" target="org.springframework.web.socket.sockjs.SockJsException">
+      <point x="0.0" y="-14.5" />
+      <point x="127.0" y="1762.0" />
+      <point x="226.0" y="1762.0" />
+      <point x="-38.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.handler.LoggingWebSocketHandlerDecorator" target="org.springframework.web.socket.handler.WebSocketHandlerDecorator">
+      <point x="0.0" y="-14.5" />
+      <point x="246.625" y="1145.0" />
+      <point x="424.4519230769231" y="1145.0" />
+      <point x="-56.75" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.client.standard.AnnotatedEndpointConnectionManager" target="org.springframework.web.socket.client.ConnectionManagerSupport">
+      <point x="0.0" y="-14.5" />
+      <point x="1763.5" y="1609.0" />
+      <point x="1557.0" y="1609.0" />
+      <point x="74.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.messaging.SubProtocolWebSocketHandler" target="org.springframework.web.socket.SubProtocolCapable">
+      <point x="60.5" y="-14.5" />
+      <point x="222.7019230769231" y="1224.0" />
+      <point x="448.375" y="1224.0" />
+      <point x="-43.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.handler.TextWebSocketHandler" target="org.springframework.web.socket.handler.AbstractWebSocketHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="1002.625" y="1145.0" />
+      <point x="1057.375" y="1145.0" />
+      <point x="-54.75" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.handler.ConcurrentWebSocketSessionDecorator" target="org.springframework.web.socket.handler.WebSocketSessionDecorator">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.transport.TransportHandlingSockJsService" target="org.springframework.web.socket.sockjs.support.AbstractSockJsService">
+      <point x="-63.0" y="-14.5" />
+      <point x="2155.125" y="1145.0" />
+      <point x="2116.625" y="1145.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.transport.session.WebSocketServerSockJsSession" target="org.springframework.web.socket.sockjs.transport.session.AbstractSockJsSession">
+      <point x="-62.25" y="-14.5" />
+      <point x="514.5694444444443" y="212.0" />
+      <point x="461.75" y="212.0" />
+      <point x="48.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.transport.session.AbstractHttpSockJsSession" target="org.springframework.web.socket.sockjs.transport.session.AbstractSockJsSession">
+      <point x="0.0" y="-14.5" />
+      <point x="321.8194444444444" y="212.0" />
+      <point x="365.25" y="212.0" />
+      <point x="-48.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.server.support.AbstractHandshakeHandler" target="org.springframework.web.socket.server.HandshakeHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="41.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.server.jetty.Jetty10RequestUpgradeStrategy" target="org.springframework.web.socket.server.RequestUpgradeStrategy">
+      <point x="0.0" y="-14.5" />
+      <point x="1.4210854715202004E-14" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.config.annotation.DelegatingWebSocketConfiguration" target="org.springframework.web.socket.config.annotation.WebSocketConfigurationSupport">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.transport.handler.AbstractHttpSendingTransportHandler" target="org.springframework.web.socket.sockjs.transport.handler.AbstractTransportHandler">
+      <point x="-72.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.transport.handler.HtmlFileTransportHandler" target="org.springframework.web.socket.sockjs.transport.handler.AbstractHttpSendingTransportHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="389.5" y="597.0" />
+      <point x="638.25" y="597.0" />
+      <point x="-108.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.messaging.SubProtocolWebSocketHandler" target="org.springframework.web.socket.WebSocketHandler">
+      <point x="-60.5" y="-14.5" />
+      <point x="101.7019230769231" y="1224.0" />
+      <point x="0.0" y="1224.0" />
+      <point x="0.0" y="1061.0" />
+      <point x="301.125" y="1061.0" />
+      <point x="-62.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.transport.handler.XhrStreamingTransportHandler" target="org.springframework.web.socket.sockjs.transport.handler.AbstractHttpSendingTransportHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="1128.0" y="597.0" />
+      <point x="854.25" y="597.0" />
+      <point x="108.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.adapter.standard.StandardWebSocketSession" target="org.springframework.web.socket.adapter.AbstractWebSocketSession">
+      <point x="0.0" y="-14.5" />
+      <point x="945.5694444444443" y="291.0" />
+      <point x="885.5694444444443" y="291.0" />
+      <point x="54.75" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.handler.ExceptionWebSocketHandlerDecorator" target="org.springframework.web.socket.handler.WebSocketHandlerDecorator">
+      <point x="0.0" y="-14.5" />
+      <point x="742.125" y="1145.0" />
+      <point x="537.9519230769231" y="1145.0" />
+      <point x="56.75" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.server.standard.AbstractStandardUpgradeStrategy" target="org.springframework.web.socket.server.RequestUpgradeStrategy">
+      <point x="0.0" y="-14.5" />
+      <point x="715.4999999999999" y="755.0" />
+      <point x="922.8333333333333" y="755.0" />
+      <point x="-67.66666666666667" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.config.annotation.WebMvcStompWebSocketEndpointRegistration" target="org.springframework.web.socket.config.annotation.StompWebSocketEndpointRegistration">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.handler.WebSocketHandlerDecorator" target="org.springframework.web.socket.WebSocketHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="481.2019230769231" y="1071.0" />
+      <point x="384.125" y="1071.0" />
+      <point x="20.75" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.client.AbstractWebSocketClient" target="org.springframework.web.socket.client.WebSocketClient">
+      <point x="0.0" y="-14.5" />
+      <point x="850.75" y="1377.0" />
+      <point x="905.75" y="1377.0" />
+      <point x="-38.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.client.XhrTransport" target="org.springframework.web.socket.sockjs.client.InfoReceiver">
+      <point x="-32.75" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.server.support.HttpSessionHandshakeInterceptor" target="org.springframework.web.socket.server.HandshakeInterceptor">
+      <point x="0.0" y="-14.5" />
+      <point x="946.5" y="1762.0" />
+      <point x="862.0" y="1762.0" />
+      <point x="46.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.client.AbstractXhrTransport" target="org.springframework.web.socket.sockjs.client.XhrTransport">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.server.standard.TomcatRequestUpgradeStrategy" target="org.springframework.web.socket.server.standard.AbstractStandardUpgradeStrategy">
+      <point x="0.0" y="-14.5" />
+      <point x="1141.5" y="829.0" />
+      <point x="813.7499999999999" y="829.0" />
+      <point x="98.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.config.annotation.DelegatingWebSocketMessageBrokerConfiguration" target="org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurationSupport">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.TextMessage" target="org.springframework.web.socket.AbstractWebSocketMessage">
+      <point x="0.0" y="-14.5" />
+      <point x="64.5" y="1456.0" />
+      <point x="206.625" y="1456.0" />
+      <point x="-84.375" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.server.support.DefaultHandshakeHandler" target="org.springframework.web.socket.server.support.AbstractHandshakeHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.client.SockJsClient" target="org.springframework.web.socket.client.WebSocketClient">
+      <point x="0.0" y="-14.5" />
+      <point x="1037.25" y="1377.0" />
+      <point x="982.25" y="1377.0" />
+      <point x="38.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.handler.PerConnectionWebSocketHandler" target="org.springframework.web.socket.WebSocketHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="219.2019230769231" y="1071.0" />
+      <point x="342.625" y="1071.0" />
+      <point x="-20.75" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.server.standard.UndertowRequestUpgradeStrategy" target="org.springframework.web.socket.server.standard.AbstractStandardUpgradeStrategy">
+      <point x="0.0" y="-14.5" />
+      <point x="570.9999999999999" y="839.0" />
+      <point x="682.7499999999999" y="839.0" />
+      <point x="-32.75" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.handler.BinaryWebSocketHandler" target="org.springframework.web.socket.handler.AbstractWebSocketHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="1221.625" y="1145.0" />
+      <point x="1166.875" y="1145.0" />
+      <point x="54.75" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.client.XhrClientSockJsSession" target="org.springframework.web.socket.sockjs.client.AbstractClientSockJsSession">
+      <point x="0.0" y="-14.5" />
+      <point x="1323.8194444444443" y="212.0" />
+      <point x="1286.25" y="212.0" />
+      <point x="57.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.messaging.SessionDisconnectEvent" target="org.springframework.web.socket.messaging.AbstractSubProtocolEvent">
+      <point x="0.0" y="-14.5" />
+      <point x="962.0" y="1604.0" />
+      <point x="624.8000000000001" y="1604.0" />
+      <point x="84.80000000000004" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.client.RestTemplateXhrTransport" target="org.springframework.web.socket.sockjs.client.AbstractXhrTransport">
+      <point x="0.0" y="-14.5" />
+      <point x="1476.125" y="1224.0" />
+      <point x="1622.7916666666667" y="1224.0" />
+      <point x="-61.333333333333336" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.client.DefaultTransportRequest" target="org.springframework.web.socket.sockjs.client.TransportRequest">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.PongMessage" target="org.springframework.web.socket.AbstractWebSocketMessage">
+      <point x="0.0" y="-14.5" />
+      <point x="526.0" y="1456.0" />
+      <point x="375.375" y="1456.0" />
+      <point x="84.375" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.transport.handler.AbstractHttpReceivingTransportHandler" target="org.springframework.web.socket.sockjs.transport.handler.AbstractTransportHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="148.0" y="528.0" />
+      <point x="604.25" y="528.0" />
+      <point x="-70.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.messaging.SessionSubscribeEvent" target="org.springframework.web.socket.messaging.AbstractSubProtocolEvent">
+      <point x="0.0" y="-14.5" />
+      <point x="325.0" y="1614.0" />
+      <point x="497.6" y="1614.0" />
+      <point x="-42.39999999999999" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.transport.handler.XhrPollingTransportHandler" target="org.springframework.web.socket.sockjs.transport.handler.AbstractHttpSendingTransportHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="622.5" y="607.0" />
+      <point x="710.25" y="607.0" />
+      <point x="-36.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.adapter.jetty.JettyWebSocketSession" target="org.springframework.web.socket.adapter.AbstractWebSocketSession">
+      <point x="0.0" y="-14.5" />
+      <point x="716.0694444444443" y="291.0" />
+      <point x="776.0694444444443" y="291.0" />
+      <point x="-54.75" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.transport.handler.DefaultSockJsService" target="org.springframework.web.socket.sockjs.transport.TransportHandlingSockJsService">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.client.JettyXhrTransport" target="org.springframework.web.socket.sockjs.client.AbstractXhrTransport">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.transport.session.WebSocketServerSockJsSession" target="org.springframework.web.socket.adapter.NativeWebSocketSession">
+      <point x="62.25" y="-14.5" />
+      <point x="639.0694444444443" y="212.0" />
+      <point x="762.4861111111111" y="212.0" />
+      <point x="-68.33333333333333" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.messaging.SessionConnectEvent" target="org.springframework.web.socket.messaging.AbstractSubProtocolEvent">
+      <point x="0.0" y="-14.5" />
+      <point x="750.5" y="1614.0" />
+      <point x="582.4000000000001" y="1614.0" />
+      <point x="42.400000000000034" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.transport.session.PollingSockJsSession" target="org.springframework.web.socket.sockjs.transport.session.AbstractHttpSockJsSession">
+      <point x="0.0" y="-14.5" />
+      <point x="216.06944444444446" y="291.0" />
+      <point x="266.5694444444444" y="291.0" />
+      <point x="-55.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.messaging.SessionUnsubscribeEvent" target="org.springframework.web.socket.messaging.AbstractSubProtocolEvent">
+      <point x="0.0" y="-14.5" />
+      <point x="104.5" y="1604.0" />
+      <point x="455.2" y="1604.0" />
+      <point x="-84.8" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.frame.AbstractSockJsMessageCodec" target="org.springframework.web.socket.sockjs.frame.SockJsMessageCodec">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.client.UndertowXhrTransport" target="org.springframework.web.socket.sockjs.client.AbstractXhrTransport">
+      <point x="0.0" y="-14.5" />
+      <point x="1881.125" y="1224.0" />
+      <point x="1745.4583333333333" y="1224.0" />
+      <point x="61.33333333333334" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.transport.handler.AbstractTransportHandler" target="org.springframework.web.socket.sockjs.transport.TransportHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.adapter.standard.StandardToWebSocketExtensionAdapter" target="org.springframework.web.socket.WebSocketExtension">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.PingMessage" target="org.springframework.web.socket.AbstractWebSocketMessage">
+      <point x="0.0" y="-14.5" />
+      <point x="213.5" y="1456.0" />
+      <point x="262.875" y="1456.0" />
+      <point x="-28.125" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.handler.AbstractWebSocketHandler" target="org.springframework.web.socket.WebSocketHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="1112.125" y="1061.0" />
+      <point x="425.625" y="1061.0" />
+      <point x="62.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.transport.handler.XhrReceivingTransportHandler" target="org.springframework.web.socket.sockjs.transport.handler.AbstractHttpReceivingTransportHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.frame.DefaultSockJsFrameFormat" target="org.springframework.web.socket.sockjs.frame.SockJsFrameFormat">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.transport.handler.SockJsWebSocketHandler" target="org.springframework.web.socket.SubProtocolCapable">
+      <point x="-52.5" y="-14.5" />
+      <point x="703.0769230769231" y="1224.0" />
+      <point x="534.875" y="1224.0" />
+      <point x="43.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.adapter.NativeWebSocketSession" target="org.springframework.web.socket.WebSocketSession">
+      <point x="0.0" y="-14.5" />
+      <point x="830.8194444444443" y="59.0" />
+      <point x="621.1944444444443" y="59.0" />
+      <point x="20.75" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.transport.handler.WebSocketTransportHandler" target="org.springframework.web.socket.sockjs.transport.handler.AbstractTransportHandler">
+      <point x="-75.66666666666669" y="-14.5" />
+      <point x="957.5833333333333" y="518.0" />
+      <point x="744.25" y="518.0" />
+      <point x="70.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.config.annotation.ServletWebSocketHandlerRegistry" target="org.springframework.web.socket.config.annotation.WebSocketHandlerRegistry">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.client.WebSocketTransport" target="org.springframework.web.socket.sockjs.client.Transport">
+      <point x="0.0" y="-14.5" />
+      <point x="27.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.client.AbstractClientSockJsSession" target="org.springframework.web.socket.WebSocketSession">
+      <point x="0.0" y="-14.5" />
+      <point x="1229.25" y="49.0" />
+      <point x="662.6944444444443" y="49.0" />
+      <point x="62.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.config.annotation.AbstractWebSocketHandlerRegistration" target="org.springframework.web.socket.config.annotation.WebSocketHandlerRegistration">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.support.AbstractSockJsService" target="org.springframework.web.socket.sockjs.SockJsService">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.BinaryMessage" target="org.springframework.web.socket.AbstractWebSocketMessage">
+      <point x="0.0" y="-14.5" />
+      <point x="368.5" y="1456.0" />
+      <point x="319.125" y="1456.0" />
+      <point x="28.125" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.transport.session.StreamingSockJsSession" target="org.springframework.web.socket.sockjs.transport.session.AbstractHttpSockJsSession">
+      <point x="0.0" y="-14.5" />
+      <point x="427.5694444444444" y="291.0" />
+      <point x="377.0694444444444" y="291.0" />
+      <point x="55.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.client.WebSocketConnectionManager" target="org.springframework.web.socket.client.ConnectionManagerSupport">
+      <point x="0.0" y="-14.5" />
+      <point x="1228.0" y="1609.0" />
+      <point x="1409.0" y="1609.0" />
+      <point x="-74.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.client.standard.StandardWebSocketClient" target="org.springframework.web.socket.client.AbstractWebSocketClient">
+      <point x="0.0" y="-14.5" />
+      <point x="742.5" y="1456.0" />
+      <point x="799.25" y="1456.0" />
+      <point x="-51.5" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.client.XhrTransport" target="org.springframework.web.socket.sockjs.client.Transport">
+      <point x="32.75" y="-14.5" />
+      <point x="1716.875" y="1066.0" />
+      <point x="1804.625" y="1066.0" />
+      <point x="-27.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.server.jetty.JettyRequestUpgradeStrategy" target="org.springframework.web.socket.server.RequestUpgradeStrategy">
+      <point x="0.0" y="-14.5" />
+      <point x="1251.5" y="755.0" />
+      <point x="1058.1666666666665" y="755.0" />
+      <point x="67.66666666666669" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.transport.handler.WebSocketTransportHandler" target="org.springframework.web.socket.server.HandshakeHandler">
+      <point x="75.66666666666667" y="-14.5" />
+      <point x="1108.9166666666667" y="528.0" />
+      <point x="1324.25" y="528.0" />
+      <point x="-41.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.frame.Jackson2SockJsMessageCodec" target="org.springframework.web.socket.sockjs.frame.AbstractSockJsMessageCodec">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.web.socket.sockjs.client.WebSocketClientSockJsSession" target="org.springframework.web.socket.sockjs.client.AbstractClientSockJsSession">
+      <point x="61.25" y="-14.5" />
+      <point x="1144.0694444444443" y="212.0" />
+      <point x="1172.25" y="212.0" />
+      <point x="-57.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="112.5" y="54.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.r2dbc.connection.ConnectionFactoryUtils</OriginalElement>
+  <nodes>
+    <node x="24.5" y="844.0">org.springframework.r2dbc.core.binding.Bindings</node>
+    <node x="0.0" y="1145.0">org.springframework.r2dbc.core.ExecuteFunction</node>
+    <node x="238.0" y="1071.0">org.springframework.r2dbc.core.ColumnMapRowMapper</node>
+    <node x="803.75" y="538.0">org.springframework.r2dbc.connection.DelegatingConnectionFactory</node>
+    <node x="219.0" y="617.0">org.springframework.r2dbc.core.binding.NamedBindMarkers</node>
+    <node x="797.5" y="691.0">org.springframework.r2dbc.core.SqlProvider</node>
+    <node x="0.0" y="923.0">org.springframework.r2dbc.core.binding.MutableBindings</node>
+    <node x="0.0" y="464.0">org.springframework.r2dbc.connection.lookup.BeanFactoryConnectionFactoryLookup</node>
+    <node x="268.0" y="997.0">org.springframework.r2dbc.connection.init.ConnectionFactoryInitializer</node>
+    <node x="430.0" y="79.0">org.springframework.r2dbc.core.DatabaseClient</node>
+    <node x="0.0" y="0.0">org.springframework.r2dbc.core.RowsFetchSpec</node>
+    <node x="503.0" y="311.0">org.springframework.r2dbc.connection.init.UncategorizedScriptException</node>
+    <node x="770.0" y="770.0">org.springframework.r2dbc.core.ConnectionFunction</node>
+    <node x="702.0" y="1071.0">org.springframework.r2dbc.core.binding.BindMarkersFactory</node>
+    <node x="407.0" y="617.0">org.springframework.r2dbc.core.binding.IndexedBindMarkers</node>
+    <node x="531.0" y="691.0">org.springframework.r2dbc.core.BindParameterSource</node>
+    <node x="758.0" y="311.0">org.springframework.r2dbc.connection.init.ScriptParseException</node>
+    <node x="240.5" y="538.0">org.springframework.r2dbc.core.binding.BindMarkers</node>
+    <node x="520.0" y="1145.0">org.springframework.r2dbc.connection.init.ScriptUtils</node>
+    <node x="418.5" y="232.0">org.springframework.r2dbc.connection.init.ScriptException</node>
+    <node x="532.0" y="997.0">org.springframework.r2dbc.connection.R2dbcTransactionManager</node>
+    <node x="112.25" y="79.0">org.springframework.r2dbc.core.FetchSpec</node>
+    <node x="240.00000000000003" y="311.0">org.springframework.r2dbc.connection.init.ScriptStatementFailedException</node>
+    <node x="308.0" y="464.0">org.springframework.r2dbc.connection.lookup.MapConnectionFactoryLookup</node>
+    <node x="196.0" y="844.0">org.springframework.r2dbc.connection.lookup.ConnectionFactoryLookupFailureException</node>
+    <node x="476.0" y="1071.0">org.springframework.r2dbc.core.NamedParameterUtils</node>
+    <node x="0.0" y="1071.0">org.springframework.r2dbc.connection.ConnectionFactoryUtils</node>
+    <node x="0.0" y="617.0">org.springframework.r2dbc.core.binding.AnonymousBindMarkers</node>
+    <node x="832.0" y="1145.0">org.springframework.r2dbc.core.ParsedSql</node>
+    <node x="412.0" y="0.0">org.springframework.r2dbc.core.ConnectionAccessor</node>
+    <node x="864.0" y="844.0">org.springframework.r2dbc.core.DefaultDatabaseClientBuilder</node>
+    <node x="518.0" y="770.0">org.springframework.r2dbc.core.MapBindParameterSource</node>
+    <node x="1046.0" y="997.0">org.springframework.r2dbc.core.StatementFilterFunction</node>
+    <node x="997.0" y="691.0">org.springframework.r2dbc.core.QueryOperation</node>
+    <node x="553.0" y="844.0">org.springframework.r2dbc.connection.lookup.AbstractRoutingConnectionFactory</node>
+    <node x="90.25" y="158.0">org.springframework.r2dbc.core.DefaultFetchSpec</node>
+    <node x="0.0" y="997.0">org.springframework.r2dbc.core.binding.BindMarkersFactoryResolver</node>
+    <node x="677.0" y="1145.0">org.springframework.r2dbc.core.Parameter</node>
+    <node x="956.0" y="617.0">org.springframework.r2dbc.connection.SingleConnectionFactory</node>
+    <node x="359.0" y="1145.0">org.springframework.r2dbc.core.binding.BindTarget</node>
+    <node x="565.0" y="464.0">org.springframework.r2dbc.connection.lookup.SingleConnectionFactoryLookup</node>
+    <node x="321.0" y="385.0">org.springframework.r2dbc.connection.lookup.ConnectionFactoryLookup</node>
+    <node x="196.0" y="1145.0">org.springframework.r2dbc.core.binding.BindMarker</node>
+    <node x="0.0" y="770.0">org.springframework.r2dbc.connection.init.CompositeDatabasePopulator</node>
+    <node x="251.0" y="770.0">org.springframework.r2dbc.connection.init.ResourceDatabasePopulator</node>
+    <node x="0.0" y="311.0">org.springframework.r2dbc.connection.init.CannotReadScriptException</node>
+    <node x="156.25" y="691.0">org.springframework.r2dbc.connection.init.DatabasePopulator</node>
+    <node x="165.0" y="0.0">org.springframework.r2dbc.core.UpdatedRowsFetchSpec</node>
+    <node x="918.0" y="1071.0">org.springframework.r2dbc.connection.ConnectionHolder</node>
+    <node x="790.0" y="997.0">org.springframework.r2dbc.core.NamedParameterExpander</node>
+    <node x="988.0" y="770.0">org.springframework.r2dbc.core.PreparedOperation</node>
+    <node x="408.0" y="158.0">org.springframework.r2dbc.core.DefaultDatabaseClient</node>
+    <node x="625.0" y="617.0">org.springframework.r2dbc.connection.TransactionAwareConnectionFactoryProxy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.r2dbc.core.DefaultDatabaseClient" target="org.springframework.r2dbc.core.DatabaseClient">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.r2dbc.connection.SingleConnectionFactory" target="org.springframework.r2dbc.connection.DelegatingConnectionFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="1057.0" y="592.0" />
+      <point x="976.25" y="592.0" />
+      <point x="57.5" y="14.5" />
+    </edge>
+    <edge source="org.springframework.r2dbc.connection.init.UncategorizedScriptException" target="org.springframework.r2dbc.connection.init.ScriptException">
+      <point x="0.0" y="-14.5" />
+      <point x="620.5" y="291.0" />
+      <point x="509.125" y="291.0" />
+      <point x="18.125" y="14.5" />
+    </edge>
+    <edge source="org.springframework.r2dbc.core.PreparedOperation" target="org.springframework.r2dbc.core.QueryOperation">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.r2dbc.core.DatabaseClient" target="org.springframework.r2dbc.core.ConnectionAccessor">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.r2dbc.connection.init.ScriptParseException" target="org.springframework.r2dbc.connection.init.ScriptException">
+      <point x="0.0" y="-14.5" />
+      <point x="847.5" y="281.0" />
+      <point x="545.375" y="281.0" />
+      <point x="54.375" y="14.5" />
+    </edge>
+    <edge source="org.springframework.r2dbc.core.binding.IndexedBindMarkers" target="org.springframework.r2dbc.core.binding.BindMarkers">
+      <point x="0.0" y="-14.5" />
+      <point x="493.5" y="592.0" />
+      <point x="344.66666666666663" y="592.0" />
+      <point x="41.66666666666663" y="14.5" />
+    </edge>
+    <edge source="org.springframework.r2dbc.connection.init.ScriptStatementFailedException" target="org.springframework.r2dbc.connection.init.ScriptException">
+      <point x="0.0" y="-14.5" />
+      <point x="361.5" y="291.0" />
+      <point x="472.875" y="291.0" />
+      <point x="-18.125" y="14.5" />
+    </edge>
+    <edge source="org.springframework.r2dbc.connection.lookup.BeanFactoryConnectionFactoryLookup" target="org.springframework.r2dbc.connection.lookup.ConnectionFactoryLookup">
+      <point x="0.0" y="-14.5" />
+      <point x="144.0" y="439.0" />
+      <point x="356.1666666666667" y="439.0" />
+      <point x="-70.33333333333331" y="14.5" />
+    </edge>
+    <edge source="org.springframework.r2dbc.connection.init.ResourceDatabasePopulator" target="org.springframework.r2dbc.connection.init.DatabasePopulator">
+      <point x="0.0" y="-14.5" />
+      <point x="362.0" y="745.0" />
+      <point x="280.0" y="745.0" />
+      <point x="41.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.r2dbc.core.binding.NamedBindMarkers" target="org.springframework.r2dbc.core.binding.BindMarkers">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.r2dbc.connection.lookup.MapConnectionFactoryLookup" target="org.springframework.r2dbc.connection.lookup.ConnectionFactoryLookup">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.r2dbc.core.FetchSpec" target="org.springframework.r2dbc.core.RowsFetchSpec">
+      <point x="-28.0" y="-14.5" />
+      <point x="140.25" y="54.0" />
+      <point x="72.5" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.r2dbc.core.binding.MutableBindings" target="org.springframework.r2dbc.core.binding.Bindings">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.r2dbc.core.DefaultFetchSpec" target="org.springframework.r2dbc.core.FetchSpec">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.r2dbc.connection.init.CannotReadScriptException" target="org.springframework.r2dbc.connection.init.ScriptException">
+      <point x="0.0" y="-14.5" />
+      <point x="110.0" y="281.0" />
+      <point x="436.625" y="281.0" />
+      <point x="-54.375" y="14.5" />
+    </edge>
+    <edge source="org.springframework.r2dbc.connection.lookup.SingleConnectionFactoryLookup" target="org.springframework.r2dbc.connection.lookup.ConnectionFactoryLookup">
+      <point x="0.0" y="-14.5" />
+      <point x="689.0" y="439.0" />
+      <point x="496.8333333333333" y="439.0" />
+      <point x="70.33333333333331" y="14.5" />
+    </edge>
+    <edge source="org.springframework.r2dbc.core.MapBindParameterSource" target="org.springframework.r2dbc.core.BindParameterSource">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.r2dbc.connection.init.CompositeDatabasePopulator" target="org.springframework.r2dbc.connection.init.DatabasePopulator">
+      <point x="0.0" y="-14.5" />
+      <point x="115.5" y="745.0" />
+      <point x="197.5" y="745.0" />
+      <point x="-41.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.r2dbc.core.FetchSpec" target="org.springframework.r2dbc.core.UpdatedRowsFetchSpec">
+      <point x="28.0" y="-14.5" />
+      <point x="196.25" y="54.0" />
+      <point x="264.0" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.r2dbc.core.ConnectionFunction" target="org.springframework.r2dbc.core.SqlProvider">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.r2dbc.core.binding.AnonymousBindMarkers" target="org.springframework.r2dbc.core.binding.BindMarkers">
+      <point x="0.0" y="-14.5" />
+      <point x="99.5" y="592.0" />
+      <point x="261.33333333333337" y="592.0" />
+      <point x="-41.66666666666666" y="14.5" />
+    </edge>
+    <edge source="org.springframework.r2dbc.connection.TransactionAwareConnectionFactoryProxy" target="org.springframework.r2dbc.connection.DelegatingConnectionFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="780.5" y="592.0" />
+      <point x="861.25" y="592.0" />
+      <point x="-57.5" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="96.5" y="14.5" />
+  <SelectedNodes>
+    <node>org.springframework.r2dbc.connection.ConnectionFactoryUtils</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

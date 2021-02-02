@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.dao.annotation.PersistenceExceptionTranslationAdvisor</OriginalElement>
+  <nodes>
+    <node x="482.0" y="1254.0">org.springframework.transaction.event.TransactionalApplicationListenerSynchronization</node>
+    <node x="1721.0" y="2004.0">org.springframework.transaction.reactive.TransactionCallback</node>
+    <node x="968.0" y="1708.0">org.springframework.jca.context.ResourceAdapterApplicationContext</node>
+    <node x="301.0" y="1560.0">org.springframework.jca.work.WorkManagerTaskExecutor</node>
+    <node x="1131.0" y="1634.0">org.springframework.dao.support.PersistenceExceptionTranslationInterceptor</node>
+    <node x="649.0" y="1708.0">org.springframework.transaction.support.TransactionSynchronizationManager</node>
+    <node x="771.0705128205128" y="0.0">org.springframework.transaction.TransactionManager</node>
+    <node x="1305.25" y="790.0">org.springframework.transaction.TransactionSystemException</node>
+    <node x="216.0" y="1254.0">org.springframework.transaction.support.ResourceHolderSynchronization</node>
+    <node x="0.0" y="1708.0">org.springframework.transaction.config.AnnotationDrivenBeanDefinitionParser</node>
+    <node x="426.0" y="2078.0">org.springframework.transaction.event.TransactionPhase</node>
+    <node x="1330.5" y="1560.0">org.springframework.transaction.jta.JtaTransactionObject</node>
+    <node x="1493.0" y="1634.0">org.springframework.dao.annotation.PersistenceExceptionTranslationAdvisor</node>
+    <node x="564.0" y="1481.0">org.springframework.transaction.interceptor.TransactionAspectSupport</node>
+    <node x="823.0" y="1560.0">org.springframework.transaction.reactive.TransactionalOperatorImpl</node>
+    <node x="254.0" y="790.0">org.springframework.transaction.CannotCreateTransactionException</node>
+    <node x="1737.0" y="1407.0">org.springframework.jca.endpoint.GenericMessageEndpointFactory</node>
+    <node x="0.0" y="1930.0">org.springframework.transaction.config.TxAdviceBeanDefinitionParser</node>
+    <node x="576.5" y="1560.0">org.springframework.transaction.interceptor.TransactionInterceptor</node>
+    <node x="114.75" y="1175.0">org.springframework.transaction.support.ResourceHolder</node>
+    <node x="318.0" y="1407.0">org.springframework.transaction.event.TransactionalApplicationListenerMethodAdapter</node>
+    <node x="265.0" y="469.0">org.springframework.transaction.support.ResourceTransactionDefinition</node>
+    <node x="1121.5" y="79.0">org.springframework.transaction.ReactiveTransactionManager</node>
+    <node x="303.0" y="1856.0">org.springframework.transaction.interceptor.TransactionAttributeSourceEditor</node>
+    <node x="738.5" y="869.0">org.springframework.transaction.NoTransactionException</node>
+    <node x="1249.0" y="1782.0">org.springframework.transaction.event.TransactionalEventListenerFactory</node>
+    <node x="384.5" y="79.0">org.springframework.transaction.PlatformTransactionManager</node>
+    <node x="1105.0" y="1930.0">org.springframework.transaction.jta.ManagedTransactionAdapter</node>
+    <node x="1285.0" y="1708.0">org.springframework.transaction.interceptor.TransactionAttributeSourcePointcut</node>
+    <node x="258.0" y="2004.0">org.springframework.transaction.reactive.TransactionContextHolder</node>
+    <node x="215.0" y="2078.0">org.springframework.transaction.interceptor.TransactionalProxy</node>
+    <node x="1734.0" y="1328.0">org.springframework.jca.endpoint.AbstractMessageEndpointFactory</node>
+    <node x="1473.0" y="1328.0">org.springframework.transaction.support.TransactionCallback</node>
+    <node x="1524.0" y="2078.0">org.springframework.transaction.annotation.Isolation</node>
+    <node x="522.0" y="469.0">org.springframework.transaction.interceptor.TransactionAttribute</node>
+    <node x="1174.5" y="1175.0">org.springframework.transaction.annotation.TransactionAnnotationParser</node>
+    <node x="1433.0" y="1254.0">org.springframework.transaction.annotation.Ejb3TransactionAnnotationParser</node>
+    <node x="0.0" y="1782.0">org.springframework.transaction.config.TransactionManagementConfigUtils</node>
+    <node x="1427.5" y="869.0">org.springframework.transaction.IllegalTransactionStateException</node>
+    <node x="1781.0" y="1856.0">org.springframework.transaction.annotation.EnableTransactionManagement</node>
+    <node x="0.0" y="1634.0">org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor</node>
+    <node x="0.0" y="1254.0">org.springframework.transaction.support.ResourceHolderSupport</node>
+    <node x="467.0" y="316.0">org.springframework.transaction.jta.WebLogicJtaTransactionManager</node>
+    <node x="697.5" y="943.0">org.springframework.transaction.interceptor.TransactionAttributeSource</node>
+    <node x="0.0" y="1407.0">org.springframework.transaction.event.TransactionalApplicationListenerAdapter</node>
+    <node x="832.0" y="1930.0">org.springframework.jca.support.LocalConnectionFactoryBean</node>
+    <node x="1601.0" y="1708.0">org.springframework.transaction.config.JtaTransactionManagerFactoryBean</node>
+    <node x="973.0" y="1022.0">org.springframework.transaction.interceptor.MethodMapTransactionAttributeSource</node>
+    <node x="0.0" y="2004.0">org.springframework.transaction.interceptor.TransactionAttributeEditor</node>
+    <node x="0.0" y="469.0">org.springframework.transaction.support.DelegatingTransactionDefinition</node>
+    <node x="1485.5" y="627.0">org.springframework.transaction.support.SimpleTransactionStatus</node>
+    <node x="556.0" y="1930.0">org.springframework.jca.support.ResourceAdapterFactoryBean</node>
+    <node x="1285.0" y="1022.0">org.springframework.transaction.interceptor.CompositeTransactionAttributeSource</node>
+    <node x="330.0" y="1708.0">org.springframework.transaction.reactive.TransactionSynchronizationManager</node>
+    <node x="717.0" y="1407.0">org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration</node>
+    <node x="1493.0" y="1856.0">org.springframework.jca.context.SpringContextResourceAdapter</node>
+    <node x="1322.0" y="1481.0">org.springframework.transaction.support.SmartTransactionObject</node>
+    <node x="418.0" y="1175.0">org.springframework.transaction.support.TransactionSynchronization</node>
+    <node x="384.0" y="1634.0">org.springframework.transaction.annotation.TransactionManagementConfigurationSelector</node>
+    <node x="822.0" y="2078.0">org.springframework.jca.work.DelegatingWork</node>
+    <node x="1205.75" y="701.0">org.springframework.transaction.TransactionException</node>
+    <node x="404.5" y="869.0">org.springframework.transaction.NestedTransactionNotSupportedException</node>
+    <node x="1038.75" y="548.0">org.springframework.transaction.support.WithoutTransactionOperations</node>
+    <node x="449.25" y="237.0">org.springframework.transaction.jta.JtaTransactionManager</node>
+    <node x="0.0" y="1560.0">org.springframework.transaction.reactive.ReactiveResourceSynchronization</node>
+    <node x="762.0" y="2004.0">org.springframework.jca.support.SimpleBootstrapContext</node>
+    <node x="0.0" y="1022.0">org.springframework.transaction.interceptor.AbstractFallbackTransactionAttributeSource</node>
+    <node x="278.0" y="1930.0">org.springframework.transaction.interceptor.TransactionProxyFactoryBean</node>
+    <node x="1848.0" y="469.0">org.springframework.transaction.ReactiveTransaction</node>
+    <node x="514.0" y="2004.0">org.springframework.jca.work.SimpleTaskWorkManager</node>
+    <node x="1116.0" y="1328.0">org.springframework.dao.support.PersistenceExceptionTranslator</node>
+    <node x="1357.0" y="2078.0">org.springframework.dao.support.DaoSupport</node>
+    <node x="1824.5" y="548.0">org.springframework.transaction.reactive.GenericReactiveTransaction</node>
+    <node x="661.0" y="1022.0">org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource</node>
+    <node x="100.75" y="316.0">org.springframework.transaction.jta.WebSphereUowTransactionManager</node>
+    <node x="1250.0" y="2004.0">org.springframework.transaction.support.SimpleTransactionScope</node>
+    <node x="718.0" y="469.0">org.springframework.transaction.support.DefaultTransactionDefinition</node>
+    <node x="1376.0" y="1930.0">org.springframework.transaction.reactive.TransactionContextManager</node>
+    <node x="1564.0" y="1481.0">org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor</node>
+    <node x="0.0" y="158.0">org.springframework.transaction.support.CallbackPreferringPlatformTransactionManager</node>
+    <node x="604.0" y="1856.0">org.springframework.transaction.jta.SpringJtaSynchronizationAdapter</node>
+    <node x="1814.25" y="790.0">org.springframework.transaction.UnexpectedRollbackException</node>
+    <node x="929.75" y="237.0">org.springframework.transaction.jta.SimpleTransactionFactory</node>
+    <node x="1576.25" y="390.0">org.springframework.transaction.SavepointManager</node>
+    <node x="1088.0" y="1481.0">org.springframework.transaction.interceptor.RollbackRuleAttribute</node>
+    <node x="1176.5" y="869.0">org.springframework.transaction.InvalidIsolationLevelException</node>
+    <node x="1555.0" y="1782.0">org.springframework.jca.context.BootstrapContextAwareProcessor</node>
+    <node x="1016.5" y="469.0">org.springframework.transaction.support.TransactionOperations</node>
+    <node x="1617.0" y="469.0">org.springframework.transaction.TransactionStatus</node>
+    <node x="0.0" y="2078.0">org.springframework.transaction.reactive.TransactionContext</node>
+    <node x="311.5" y="1481.0">org.springframework.jca.context.BootstrapContextAware</node>
+    <node x="657.0" y="158.0">org.springframework.transaction.support.ResourceTransactionManager</node>
+    <node x="764.0" y="1634.0">org.springframework.transaction.config.JtaTransactionManagerBeanDefinitionParser</node>
+    <node x="62.25" y="548.0">org.springframework.transaction.interceptor.DelegatingTransactionAttribute</node>
+    <node x="16.5" y="1101.0">org.springframework.transaction.annotation.AnnotationTransactionAttributeSource</node>
+    <node x="520.0" y="390.0">org.springframework.transaction.TransactionDefinition</node>
+    <node x="195.25" y="1328.0">org.springframework.transaction.event.TransactionalApplicationListener</node>
+    <node x="1797.5" y="390.0">org.springframework.transaction.TransactionExecution</node>
+    <node x="1095.0" y="158.0">org.springframework.transaction.reactive.AbstractReactiveTransactionManager</node>
+    <node x="314.0" y="1782.0">org.springframework.transaction.jta.JtaAfterCompletionSynchronization</node>
+    <node x="1189.0" y="2078.0">org.springframework.transaction.annotation.Propagation</node>
+    <node x="1165.0" y="1254.0">org.springframework.transaction.annotation.JtaTransactionAnnotationParser</node>
+    <node x="589.0" y="627.0">org.springframework.transaction.interceptor.RuleBasedTransactionAttribute</node>
+    <node x="627.0" y="1782.0">org.springframework.transaction.annotation.TransactionManagementConfigurer</node>
+    <node x="908.0" y="158.0">org.springframework.transaction.jta.TransactionFactory</node>
+    <node x="1706.5" y="627.0">org.springframework.transaction.support.DefaultTransactionStatus</node>
+    <node x="938.0" y="1782.0">org.springframework.transaction.interceptor.TransactionAttributeSourceAdvisor</node>
+    <node x="1199.0" y="1856.0">org.springframework.transaction.support.TransactionSynchronizationUtils</node>
+    <node x="17.5" y="1481.0">org.springframework.transaction.reactive.TransactionSynchronization</node>
+    <node x="0.0" y="790.0">org.springframework.transaction.HeuristicCompletionException</node>
+    <node x="0.0" y="1856.0">org.springframework.jca.endpoint.GenericMessageEndpointManager</node>
+    <node x="629.0" y="2078.0">org.springframework.dao.support.DataAccessUtils</node>
+    <node x="599.0" y="548.0">org.springframework.transaction.interceptor.DefaultTransactionAttribute</node>
+    <node x="1091.0" y="1407.0">org.springframework.dao.support.ChainedPersistenceExceptionTranslator</node>
+    <node x="1429.0" y="1407.0">org.springframework.transaction.support.TransactionCallbackWithoutResult</node>
+    <node x="1644.0" y="1930.0">org.springframework.transaction.event.TransactionalEventListener</node>
+    <node x="42.5" y="869.0">org.springframework.transaction.TransactionSuspensionNotSupportedException</node>
+    <node x="1552.25" y="790.0">org.springframework.transaction.TransactionTimedOutException</node>
+    <node x="1225.5" y="469.0">org.springframework.transaction.StaticTransactionDefinition</node>
+    <node x="358.0" y="158.0">org.springframework.transaction.support.AbstractPlatformTransactionManager</node>
+    <node x="835.5" y="1481.0">org.springframework.transaction.reactive.TransactionalOperator</node>
+    <node x="1064.25" y="790.0">org.springframework.transaction.TransactionUsageException</node>
+    <node x="1494.0" y="2004.0">org.springframework.transaction.config.TxNamespaceHandler</node>
+    <node x="341.0" y="1022.0">org.springframework.transaction.interceptor.MatchAlwaysTransactionAttributeSource</node>
+    <node x="1590.5" y="548.0">org.springframework.transaction.support.AbstractTransactionStatus</node>
+    <node x="841.75" y="548.0">org.springframework.transaction.support.TransactionTemplate</node>
+    <node x="958.5" y="869.0">org.springframework.transaction.InvalidTimeoutException</node>
+    <node x="1079.0" y="1560.0">org.springframework.transaction.interceptor.NoRollbackRuleAttribute</node>
+    <node x="905.0" y="1856.0">org.springframework.transaction.reactive.TransactionSynchronizationUtils</node>
+    <node x="1006.0" y="2004.0">org.springframework.transaction.jta.UserTransactionAdapter</node>
+    <node x="1013.0" y="2078.0">org.springframework.transaction.annotation.Transactional</node>
+    <node x="876.0" y="1254.0">org.springframework.transaction.annotation.SpringTransactionAnnotationParser</node>
+    <node x="708.0" y="1328.0">org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource" target="org.springframework.transaction.interceptor.TransactionAttributeSource">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.jta.SimpleTransactionFactory" target="org.springframework.transaction.jta.TransactionFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="41.75" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.interceptor.AbstractFallbackTransactionAttributeSource" target="org.springframework.transaction.interceptor.TransactionAttributeSource">
+      <point x="0.0" y="-14.5" />
+      <point x="160.5" y="992.0" />
+      <point x="719.4" y="992.0" />
+      <point x="-87.60000000000002" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration" target="org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.annotation.Ejb3TransactionAnnotationParser" target="org.springframework.transaction.annotation.TransactionAnnotationParser">
+      <point x="0.0" y="-14.5" />
+      <point x="1561.0" y="1229.0" />
+      <point x="1365.3333333333333" y="1229.0" />
+      <point x="76.33333333333326" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.jta.WebLogicJtaTransactionManager" target="org.springframework.transaction.jta.JtaTransactionManager">
+      <point x="0.0" y="-14.5" />
+      <point x="48.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.support.ResourceHolderSynchronization" target="org.springframework.transaction.support.TransactionSynchronization">
+      <point x="61.5" y="-14.5" />
+      <point x="400.5" y="1229.0" />
+      <point x="473.25" y="1229.0" />
+      <point x="-55.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.support.DefaultTransactionStatus" target="org.springframework.transaction.support.AbstractTransactionStatus">
+      <point x="0.0" y="-14.5" />
+      <point x="1809.0" y="602.0" />
+      <point x="1751.0" y="602.0" />
+      <point x="53.5" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.TransactionStatus" target="org.springframework.transaction.SavepointManager">
+      <point x="-40.25" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.interceptor.DefaultTransactionAttribute" target="org.springframework.transaction.support.DefaultTransactionDefinition">
+      <point x="55.0" y="-14.5" />
+      <point x="764.0" y="523.0" />
+      <point x="774.0" y="523.0" />
+      <point x="-56.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.event.TransactionalApplicationListenerAdapter" target="org.springframework.transaction.event.TransactionalApplicationListener">
+      <point x="0.0" y="-14.5" />
+      <point x="149.0" y="1382.0" />
+      <point x="257.5" y="1382.0" />
+      <point x="-62.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.support.TransactionCallbackWithoutResult" target="org.springframework.transaction.support.TransactionCallback">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.interceptor.MatchAlwaysTransactionAttributeSource" target="org.springframework.transaction.interceptor.TransactionAttributeSource">
+      <point x="0.0" y="-14.5" />
+      <point x="491.0" y="1002.0" />
+      <point x="763.2" y="1002.0" />
+      <point x="-43.799999999999955" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.support.TransactionTemplate" target="org.springframework.transaction.support.DefaultTransactionDefinition">
+      <point x="-44.25" y="-14.5" />
+      <point x="56.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.annotation.AnnotationTransactionAttributeSource" target="org.springframework.transaction.interceptor.AbstractFallbackTransactionAttributeSource">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.support.ResourceTransactionDefinition" target="org.springframework.transaction.TransactionDefinition">
+      <point x="0.0" y="-14.5" />
+      <point x="383.5" y="449.0" />
+      <point x="574.0" y="449.0" />
+      <point x="-36.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.ReactiveTransactionManager" target="org.springframework.transaction.TransactionManager">
+      <point x="0.0" y="-14.5" />
+      <point x="1234.0" y="54.0" />
+      <point x="901.5705128205128" y="54.0" />
+      <point x="43.5" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.support.DelegatingTransactionDefinition" target="org.springframework.transaction.TransactionDefinition">
+      <point x="0.0" y="-14.5" />
+      <point x="122.5" y="439.0" />
+      <point x="538.0" y="439.0" />
+      <point x="-72.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.jta.WebSphereUowTransactionManager" target="org.springframework.transaction.jta.JtaTransactionManager">
+      <point x="68.25" y="-14.5" />
+      <point x="305.5" y="291.0" />
+      <point x="497.5" y="291.0" />
+      <point x="-48.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.CannotCreateTransactionException" target="org.springframework.transaction.TransactionException">
+      <point x="0.0" y="-14.5" />
+      <point x="387.5" y="760.0" />
+      <point x="1251.25" y="760.0" />
+      <point x="-45.5" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.reactive.TransactionalOperatorImpl" target="org.springframework.transaction.reactive.TransactionalOperator">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.HeuristicCompletionException" target="org.springframework.transaction.TransactionException">
+      <point x="0.0" y="-14.5" />
+      <point x="117.0" y="750.0" />
+      <point x="1220.9166666666665" y="750.0" />
+      <point x="-75.83333333333337" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.TransactionSuspensionNotSupportedException" target="org.springframework.transaction.CannotCreateTransactionException">
+      <point x="0.0" y="-14.5" />
+      <point x="213.5" y="849.0" />
+      <point x="320.75" y="849.0" />
+      <point x="-66.75" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.support.CallbackPreferringPlatformTransactionManager" target="org.springframework.transaction.PlatformTransactionManager">
+      <point x="0.0" y="-14.5" />
+      <point x="169.0" y="133.0" />
+      <point x="422.1666666666667" y="133.0" />
+      <point x="-75.33333333333331" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.jta.JtaTransactionObject" target="org.springframework.transaction.support.SmartTransactionObject">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.ReactiveTransaction" target="org.springframework.transaction.TransactionExecution">
+      <point x="0.0" y="-14.5" />
+      <point x="45.5" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.event.TransactionalApplicationListenerSynchronization" target="org.springframework.transaction.support.TransactionSynchronization">
+      <point x="0.0" y="-14.5" />
+      <point x="656.5" y="1229.0" />
+      <point x="583.75" y="1229.0" />
+      <point x="55.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.jta.WebSphereUowTransactionManager" target="org.springframework.transaction.support.CallbackPreferringPlatformTransactionManager">
+      <point x="-68.25" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.NestedTransactionNotSupportedException" target="org.springframework.transaction.CannotCreateTransactionException">
+      <point x="0.0" y="-14.5" />
+      <point x="561.5" y="849.0" />
+      <point x="454.25" y="849.0" />
+      <point x="66.75" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.support.ResourceHolderSupport" target="org.springframework.transaction.support.ResourceHolder">
+      <point x="0.0" y="-14.5" />
+      <point x="98.0" y="1229.0" />
+      <point x="151.25" y="1229.0" />
+      <point x="-36.5" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.TransactionSystemException" target="org.springframework.transaction.TransactionException">
+      <point x="0.0" y="-14.5" />
+      <point x="1418.75" y="770.0" />
+      <point x="1311.9166666666667" y="770.0" />
+      <point x="15.166666666666742" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.interceptor.RuleBasedTransactionAttribute" target="org.springframework.transaction.interceptor.DefaultTransactionAttribute">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.interceptor.NoRollbackRuleAttribute" target="org.springframework.transaction.interceptor.RollbackRuleAttribute">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.NoTransactionException" target="org.springframework.transaction.TransactionUsageException">
+      <point x="0.0" y="-14.5" />
+      <point x="838.5" y="839.0" />
+      <point x="1091.875" y="839.0" />
+      <point x="-82.875" y="14.5" />
+    </edge>
+    <edge source="org.springframework.dao.support.ChainedPersistenceExceptionTranslator" target="org.springframework.dao.support.PersistenceExceptionTranslator">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.support.SimpleTransactionStatus" target="org.springframework.transaction.support.AbstractTransactionStatus">
+      <point x="0.0" y="-14.5" />
+      <point x="1586.0" y="602.0" />
+      <point x="1644.0" y="602.0" />
+      <point x="-53.5" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.support.DefaultTransactionDefinition" target="org.springframework.transaction.TransactionDefinition">
+      <point x="0.0" y="-14.5" />
+      <point x="830.0" y="449.0" />
+      <point x="646.0" y="449.0" />
+      <point x="36.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.IllegalTransactionStateException" target="org.springframework.transaction.TransactionUsageException">
+      <point x="0.0" y="-14.5" />
+      <point x="1551.5" y="839.0" />
+      <point x="1257.625" y="839.0" />
+      <point x="82.875" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.support.TransactionTemplate" target="org.springframework.transaction.support.TransactionOperations">
+      <point x="44.25" y="-14.5" />
+      <point x="974.5" y="523.0" />
+      <point x="1063.75" y="523.0" />
+      <point x="-47.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.support.AbstractTransactionStatus" target="org.springframework.transaction.TransactionStatus">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.TransactionTimedOutException" target="org.springframework.transaction.TransactionException">
+      <point x="0.0" y="-14.5" />
+      <point x="1673.25" y="760.0" />
+      <point x="1342.25" y="760.0" />
+      <point x="45.5" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.support.ResourceHolderSynchronization" target="org.springframework.transaction.support.ResourceHolder">
+      <point x="-61.5" y="-14.5" />
+      <point x="277.5" y="1229.0" />
+      <point x="224.25" y="1229.0" />
+      <point x="36.5" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.UnexpectedRollbackException" target="org.springframework.transaction.TransactionException">
+      <point x="0.0" y="-14.5" />
+      <point x="1931.25" y="750.0" />
+      <point x="1372.5833333333333" y="750.0" />
+      <point x="75.83333333333326" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.interceptor.DefaultTransactionAttribute" target="org.springframework.transaction.interceptor.TransactionAttribute">
+      <point x="-55.0" y="-14.5" />
+      <point x="44.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.interceptor.TransactionInterceptor" target="org.springframework.transaction.interceptor.TransactionAspectSupport">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.interceptor.DelegatingTransactionAttribute" target="org.springframework.transaction.support.DelegatingTransactionDefinition">
+      <point x="-60.25" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.support.AbstractPlatformTransactionManager" target="org.springframework.transaction.PlatformTransactionManager">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.PlatformTransactionManager" target="org.springframework.transaction.TransactionManager">
+      <point x="0.0" y="-14.5" />
+      <point x="497.5" y="54.0" />
+      <point x="814.5705128205128" y="54.0" />
+      <point x="-43.5" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.InvalidIsolationLevelException" target="org.springframework.transaction.TransactionUsageException">
+      <point x="0.0" y="-14.5" />
+      <point x="1292.0" y="849.0" />
+      <point x="1202.375" y="849.0" />
+      <point x="27.625" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.reactive.GenericReactiveTransaction" target="org.springframework.transaction.ReactiveTransaction">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.annotation.SpringTransactionAnnotationParser" target="org.springframework.transaction.annotation.TransactionAnnotationParser">
+      <point x="0.0" y="-14.5" />
+      <point x="1010.5" y="1229.0" />
+      <point x="1212.6666666666667" y="1229.0" />
+      <point x="-76.33333333333326" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.InvalidTimeoutException" target="org.springframework.transaction.TransactionUsageException">
+      <point x="0.0" y="-14.5" />
+      <point x="1057.5" y="849.0" />
+      <point x="1147.125" y="849.0" />
+      <point x="-27.625" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.interceptor.TransactionAttribute" target="org.springframework.transaction.TransactionDefinition">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jca.work.WorkManagerTaskExecutor" target="org.springframework.jca.context.BootstrapContextAware">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.support.WithoutTransactionOperations" target="org.springframework.transaction.support.TransactionOperations">
+      <point x="0.0" y="-14.5" />
+      <point x="47.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.event.TransactionalApplicationListenerMethodAdapter" target="org.springframework.transaction.event.TransactionalApplicationListener">
+      <point x="0.0" y="-14.5" />
+      <point x="490.5" y="1382.0" />
+      <point x="382.0" y="1382.0" />
+      <point x="62.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.TransactionStatus" target="org.springframework.transaction.TransactionExecution">
+      <point x="40.25" y="-14.5" />
+      <point x="1737.75" y="444.0" />
+      <point x="1843.0" y="444.0" />
+      <point x="-45.5" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.interceptor.MethodMapTransactionAttributeSource" target="org.springframework.transaction.interceptor.TransactionAttributeSource">
+      <point x="0.0" y="-14.5" />
+      <point x="1119.0" y="1002.0" />
+      <point x="850.8" y="1002.0" />
+      <point x="43.799999999999955" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.TransactionUsageException" target="org.springframework.transaction.TransactionException">
+      <point x="0.0" y="-14.5" />
+      <point x="1174.75" y="770.0" />
+      <point x="1281.5833333333333" y="770.0" />
+      <point x="-15.166666666666742" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.reactive.AbstractReactiveTransactionManager" target="org.springframework.transaction.ReactiveTransactionManager">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.jca.endpoint.GenericMessageEndpointFactory" target="org.springframework.jca.endpoint.AbstractMessageEndpointFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.reactive.ReactiveResourceSynchronization" target="org.springframework.transaction.reactive.TransactionSynchronization">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.jta.JtaTransactionManager" target="org.springframework.transaction.support.AbstractPlatformTransactionManager">
+      <point x="-48.25" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.StaticTransactionDefinition" target="org.springframework.transaction.TransactionDefinition">
+      <point x="0.0" y="-14.5" />
+      <point x="1333.0" y="439.0" />
+      <point x="682.0" y="439.0" />
+      <point x="72.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.support.ResourceTransactionManager" target="org.springframework.transaction.PlatformTransactionManager">
+      <point x="0.0" y="-14.5" />
+      <point x="772.5" y="133.0" />
+      <point x="572.8333333333333" y="133.0" />
+      <point x="75.33333333333331" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.interceptor.DelegatingTransactionAttribute" target="org.springframework.transaction.interceptor.TransactionAttribute">
+      <point x="60.25" y="-14.5" />
+      <point x="243.0" y="523.0" />
+      <point x="566.0" y="523.0" />
+      <point x="-44.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.annotation.JtaTransactionAnnotationParser" target="org.springframework.transaction.annotation.TransactionAnnotationParser">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.jta.JtaTransactionManager" target="org.springframework.transaction.jta.TransactionFactory">
+      <point x="48.25" y="-14.5" />
+      <point x="594.0" y="212.0" />
+      <point x="949.75" y="212.0" />
+      <point x="-41.75" y="14.5" />
+    </edge>
+    <edge source="org.springframework.transaction.interceptor.CompositeTransactionAttributeSource" target="org.springframework.transaction.interceptor.TransactionAttributeSource">
+      <point x="0.0" y="-14.5" />
+      <point x="1427.5" y="992.0" />
+      <point x="894.6" y="992.0" />
+      <point x="87.60000000000002" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="293.0" y="133.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
